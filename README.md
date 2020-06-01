@@ -16,6 +16,6 @@ Para usar os ``Notebooks``, entraremos na plataforma [CoCalc](https://cocalc.com
 
 ![Página inicial do CoCalc.](figures/cocalc1.png 'Página inicial do CoCalc.')
 
-Após isso, você será redirecionado para uma outra página, mostrada na figura abaixo. Na seção ``Suggested Kernels``, clique em ``:snake: Python 3 (system-wide)``.
+Após isso, você será redirecionado para uma outra página, mostrada na figura abaixo. Na seção ``Suggested Kernels``, clique em :snake:`` Python 3 (system-wide)``.
 
 ![Selecionando o Kernel](figures/cocalc2.png 'Selecionando o Kernel.')
