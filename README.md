@@ -1,6 +1,37 @@
+<img src='figures/logo_uem.png'>
+
 # Curso de extensão :books:
 
-Curso de extensão - Departamento de Física da Universidade Estadual de Maringá
+Bem vindo ao curso de extensão oferecido pelo [Departamento de Física (DFI)](http://site.dfi.uem.br/) da [Universidade Estadual de Maringá (UEM)](http://www.uem.br/). 
+
+Esse curso será dedicado ao aprendizado de ferramentas básicas da linguaguem de programação [python](https://www.python.org/). Essas serão utilizadas para analisar e interpretar dados provenientes de experimentos de física básica. O curso é de caráter introdutório, portanto, estudaremos casos simples como o movimento retilíneo uniforme (MRU) e o movimento retilíneo uniformemente variável (MRUV). Esses são os primeiros experimentos estudados na disciplina de [Laboratório de Física Geral I](http://site.dfi.uem.br/wp-content/uploads/2016/10/3057-Lab.-Fisica-Geral-I-programa-2007.pdf),oferecida pelo DFI, que segue o [Manual de laboratório de Física Experimental I](http://site.dfi.uem.br/wp-content/uploads/2018/04/Manual-de-Laborat%C3%B3rio-de-F%C3%ADsica-Experimental-I.pdf). 
+
+# Conteúdo do curso
+
+Durante o curso, abordaremos conceitos de física básica e analisaremos experimentos. Nosso objetivo é detalhar as observações feitas e criar modelos que expliquem os fenômenos observados. A análise dos dados serão feitas na linguagem de programação ``python`` :snake:. Iremos aprender o básico de como:
+
+- estruturar os dados com a biblioteca [``pandas``](https://pandas.pydata.org/) (:panda_face:) e [``numpy``](https://numpy.org/);
+    - o uso dessas bibliotecas nos permite uma visualização melhor dos dados;
+    - elas permitem uma facilidade na implementação de funções necessárias para nossas análises, como calcular média e desvio padrão;
+<!--  -->
+- confeccionar gráficos usando o pacote [``matplotlib``](https://matplotlib.org/) :chart_with_upwards_trend:;
+    - a partir de gráficos podemos ver tendências nos dados e então sugerir modelos teóricos;
+    - inspecionar visualmente a concordância entre os dados e o modelo proposto;
+<!--  -->
+- fazer ajustes lineares :triangular_ruler:;
+    - ajustar a equação da reta, obtendo os coeficientes linear e angular;
+<!--  -->
+- fazer ajustes não lineares;
+    - trabalharemos também com modelos não lineares, como polinômios de grau dois;
+<!--  -->
+- aprender a ajustar modelos usando a função ``polyfit`` do ``numpy`` e usando pacote de *machine learning* [``sklearn``](https://scikit-learn.org/stable/);
+<!--  -->
+- analisar quantitativamente a qualidade do modelo;
+    - calcularemos o desvio percentual de quantidades físicas envolvidas;
+    - calcularemos o coeficiente de determinação.
+
+Ficou interessado? :smiley:
+Veja abaixo como fazer o download desse repositório e como usar a plataforma onde executaremos os códigos de nossas aulas e atividades propostas.
 
 # Obtendo o repositório :arrow_down:
 
@@ -34,18 +65,4 @@ Quando a janela de dialogo abrir, selecione o arquivo da aula e clique em abrir.
 
 ![Abrindo o arquivo adicionado](figures/cocalc4.png 'Abrindo o arquivo adicionado.')
 
-Pronto! A partir daí começamos nossas aulas. Nelas abordaremos conceitos de física básica e analisaremos experimentos. Nosso objetivo é detalhar as observações feitas e criar modelos que expliquem os fenômenos observados. A análise dos dados serão feitas na linguagem de programação ``python`` :snake:. Iremos aprender o básico de como:
-- estruturar os dados com a biblioteca ``pandas`` (:panda_face:) e ``numpy``;
-    - o uso dessas bibliotecas nos permite uma visualização melhor dos dados;
-    - elas permitem uma facilidade na implementação de funções necessárias para as nossas análises, como a média e o desvio padrão;
-- confeccionar um gráfico :chart_with_upwards_trend:;
-    - isso nos permitirá uma inspeção visual entre dados e modelo;
-- fazer ajustes lineares :triangular_ruler:;
-    - ajustar a equação da reta, obtendo os coeficientes linear e angular;
-- fazer ajustes não lineares;
-    - trabalharemos também com modelos não lineares, como polinômios de grau dois;
-- analisar quantitativamente a qualidade do modelo;
-    - calcularemos o desvio percentual de quantidades físicas envolvidas;
-    - calcularemos o coeficiente de determinação.
-
-Espero que todos aproveitem e façam bom proveito do curso.:wink:
+Pronto! A partir daí começaremos nossas aulas. Espero que todos aprendam algo e façam bom proveito do curso. :wave:
