@@ -4,7 +4,13 @@ Curso de extensão - Departamento de Física da Universidade Estadual de Maring�
 
 # Obtendo o repositório :arrow_down:
 
-Você precisará do repositório para usar o ``Jupyter Notebook`` contendo os conteúdos das aulas. Para isso, basta você clicar no botão verde, escrito ``Clone or download``, e então fazer o ``Download ZIP``. Salve o arquivo em um local que for mais apropriado e descompacte-o.
+Você precisará do repositório para usar o ``Jupyter Notebook`` contendo os conteúdos das aulas. Para isso, basta você clicar no botão verde, escrito ``Clone or download``, e então fazer o ``Download ZIP``. 
+
+<!-- <div align=center> -->
+<img src='figures/git1.png' alt='Instruções para baixar o repositório.' width=400>
+<!-- </div> -->
+
+Salve o arquivo em um local que for mais apropriado e descompacte-o.
 
 # A pasta ``Aulas`` :open_file_folder:
 
