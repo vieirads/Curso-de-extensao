@@ -49,7 +49,19 @@ Nessa pasta você encontrará arquivos com a extensão ``.ipynb``. Esses arquivo
 
 # Usando os Notebooks :notebook_with_decorative_cover:
 
-Para usar os ``Notebooks``, entraremos na plataforma [CoCalc](https://cocalc.com/). Não é necessário fazer o uso de login (Sign in) e nem instalar nenhuma dependência em seu computador. Quando você entrar, clique no botão verde escrito ``Run CoCalc now``.
+O uso dos ``Notebooks`` será feito exclusivamente online, não precisando instalar nenhum dependência em seu computador. Além disso, as plataformas sugeridas aqui "emprestam" um poder de computação para você.
+
+# Google Colab notebook
+
+Para fazer o uso dessa plataforma, basta clicar no link [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#recent=true). Você só precisa estar logado com seu ``gmail`` para que possa adicionar os arquivos das aulas. Uma vez que estiver logado em sua conta, basta você clicar em ``Upload``.
+
+![Adicionando arquivo ao Google Colab.](figures/colab.png 'Adicionando arquivo ao Google Colab.')
+
+Quando a janela de dialogo abrir, selecione o arquivo da aula e clique em abrir. Após o arquivo ser carregado, você será redirecionado para o ``Notebook``, onde poderá acompanhar o conteúdo da aula e executar seus códigos. :clap: 
+
+# CoCalc
+
+Para fazer o uso dessa plataforma, basta clicar no link [CoCalc](https://cocalc.com/). Não é necessário fazer o uso de login (Sign in) e nem instalar nenhuma dependência em seu computador. Quando você entrar, clique no botão verde escrito ``Run CoCalc now``.
 
 ![Página inicial do CoCalc.](figures/cocalc1.png 'Página inicial do CoCalc.')
 
