@@ -35,13 +35,15 @@ Veja abaixo como fazer o download desse repositório e como usar a plataforma on
 
 # Obtendo o repositório :arrow_down:
 
-Você precisará do repositório para usar o ``Jupyter Notebook`` contendo os conteúdos das aulas. Para isso, basta você clicar no botão verde, escrito ``Clone or download``, e então fazer o ``Download ZIP``. 
+Você precisará do repositório para usar o ``Jupyter Notebook`` contendo os conteúdos das aulas. 
+
+Para isso, basta clicar aqui: [Baixar repositório](https://github.com/vieirads/Curso-de-extens-o/archive/master.zip). Se o link não funcionar, clique no botão verde, escrito ``Clone or download``, e então fazer o ``Download ZIP``. 
 
 <div class='figure' id='fig_git' align=center>
-<img src='figures/git1.png' alt='Instruções para baixar o repositório.' width=400>
+<a hrref="https://github.com/vieirads/Curso-de-extens-o/archive/master.zip">
+    <img src='figures/git1.png' alt='Instruções para baixar o repositório.' width=400>
+</a>
 </div>
-
-Ou então clique aqui: [Baixar repositório.](https://github.com/vieirads/Curso-de-extens-o/archive/master.zip)
 
 Salve o arquivo em um local que for mais apropriado e descompacte-o. 
 
