@@ -30,7 +30,33 @@ Durante o curso, abordaremos conceitos de física básica e analisaremos experim
     - calcularemos o desvio percentual de quantidades físicas envolvidas;
     - calcularemos o coeficiente de determinação.
 
+Mas e a Física? 
+
+Como dito antes, iremos abordar o tema de cinemática, o que consiste a primeira parte das disciplinas de [Física Geral I]() de qualquer curso. Ela serve de base para entendermos como os movimentos mais simples. Os dois tipos que iremos tratar são: 
+
+- **movimento retilíneo uniforme (MRU)**
+    - objeto se desloca, em uma única dimensão, com velocidade constante e aceleração nula;
+- **movimento retilíneo uniformemente variável (MRUV)**
+    - o objeto se desloca, em uma única dimensão, com velocidade variável e aceleração constante;
+
+O estudo desses dois movimentos consisti basicamente no estudo de poucas equações:
+- a função horária da posição: <img src="https://render.githubusercontent.com/render/math?math=S(t) = S_0 %2B vt %2B \frac{1}{2}at^2">;
+-  a função horária da velocidade: <img src="https://render.githubusercontent.com/render/math?math=v(t) = v_0 %2B at">;
+- a função horária da aceleração: <img src="https://render.githubusercontent.com/render/math?math=a(t) = a = \text{constante}">;
+
+Iremos entender o significado de cada uma dessas quantidades e como elas influenciam o movimento do sistema conforme o tempo passa. Para isso, iremos contar com a ajuda de gráficos que descrevem essas quantidades. Veja abaixo um gráfico dessas três quantidades. Você pode mudar os valores da posição inicial, da velocidade e da aceleração e já ir criando uma intuição do que ocorre em cada tipo de movimento! :grinning:
+
+<div
+ style="padding-bottom:73%; position:relative; display:block; width: 100%">
+ <iframe
+  width="100%" height="100%"
+  src="iterative_plots/mruv.html"
+  frameborder="0" scrolling="no"
+  style="position:absolute; top:0; left: 0"></iframe>
+</div>
+
 Ficou interessado? :smiley:
+
 Veja abaixo como fazer o download desse repositório e como usar a plataforma onde executaremos os códigos de nossas aulas e atividades propostas.
 
 # Obtendo o repositório :arrow_down:
@@ -80,12 +106,3 @@ Quando a janela de dialogo abrir, selecione o arquivo da aula e clique em abrir.
 ![Abrindo o arquivo adicionado](figures/cocalc4.png 'Abrindo o arquivo adicionado.')
 
 Pronto! A partir daí começaremos nossas aulas. Espero que todos aprendam algo e façam bom proveito do curso. :wave:
-
-<!-- <div
- style="padding-bottom:73%; position:relative; display:block; width: 100%">
- <iframe
-  width="100%" height="100%"
-  src="plots/evolucao_decretos.html"
-  frameborder="0" scrolling="no"
-  style="position:absolute; top:0; left: 0"></iframe>
-</div> -->
