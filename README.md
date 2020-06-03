@@ -40,7 +40,7 @@ Você precisará do repositório para usar o ``Jupyter Notebook`` contendo os co
 Para isso, basta clicar aqui: [Baixar repositório](https://github.com/vieirads/Curso-de-extens-o/archive/master.zip). Se o link não funcionar, clique no botão verde, escrito ``Clone or download``, e então fazer o ``Download ZIP``. 
 
 <div class='figure' id='fig_git' align=center>
-<a hrref="https://github.com/vieirads/Curso-de-extens-o/archive/master.zip" target="_blank">
+<a hrref="https://github.com/vieirads/Curso-de-extens-o/archive/master.zip" download>
     <img src='figures/git1.png' alt='Instruções para baixar o repositório.' width=400>
 </a>
 </div>
