@@ -41,7 +41,9 @@ Você precisará do repositório para usar o ``Jupyter Notebook`` contendo os co
 <img src='figures/git1.png' alt='Instruções para baixar o repositório.' width=400>
 </div>
 
-Salve o arquivo em um local que for mais apropriado e descompacte-o.
+Ou então clique aqui: [Baixar repositório.](https://github.com/vieirads/Curso-de-extens-o/archive/master.zip)
+
+Salve o arquivo em um local que for mais apropriado e descompacte-o. 
 
 # A pasta ``Aulas`` :open_file_folder:
 
