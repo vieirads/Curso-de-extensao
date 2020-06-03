@@ -43,10 +43,6 @@ Para isso, basta clicar aqui: [Baixar repositório](https://github.com/vieirads/
     <img src='figures/git1.png' alt='Instruções para baixar o repositório.' width=400>
 </div>
 
-<a hrref="https://github.com/vieirads/Curso-de-extens-o/archive/master.zip" download='test'>
-    <button type='button'>Download</button>
-</a>
-
 Salve o arquivo em um local que for mais apropriado e descompacte-o. 
 
 # A pasta ``Aulas`` :open_file_folder:
