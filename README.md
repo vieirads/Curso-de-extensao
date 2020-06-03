@@ -10,7 +10,7 @@ Esse curso será dedicado ao aprendizado de ferramentas básicas da linguaguem d
 
 Durante o curso, abordaremos conceitos de física básica e analisaremos experimentos. Nosso objetivo é detalhar as observações feitas e criar modelos que expliquem os fenômenos observados. A análise dos dados serão feitas na linguagem de programação ``python`` :snake:. Iremos aprender o básico de como:
 
-- estruturar os dados com a biblioteca [``pandas``](https://pandas.pydata.org/) (:panda_face:) e [``numpy``](https://numpy.org/);
+- estruturar os dados com a biblioteca [``pandas``](https://pandas.pydata.org/) <!--:panda_face:--> e [``numpy``](https://numpy.org/);
     - o uso dessas bibliotecas nos permite uma visualização melhor dos dados;
     - elas permitem uma facilidade na implementação de funções necessárias para nossas análises, como calcular média e desvio padrão;
 <!--  -->
@@ -47,7 +47,7 @@ O estudo desses dois movimentos consisti basicamente no estudo de poucas equaç�
 Iremos entender o significado de cada uma dessas quantidades e como elas influenciam o movimento do sistema conforme o tempo passa. Para isso, iremos contar com a ajuda de gráficos que descrevem essas quantidades. Veja abaixo um gráfico dessas três quantidades. Você pode mudar os valores da posição inicial, da velocidade e da aceleração e já ir criando uma intuição do que ocorre em cada tipo de movimento! :grinning:
 
 <div
- style="padding-bottom:73%; position:relative; display:block; width: 100%">
+ style="padding-bottom:110%; position:relative; display:block; width:100%">
  <iframe
   width="100%" height="100%"
   src="iterative_plots/mruv.html"
