@@ -80,3 +80,12 @@ Quando a janela de dialogo abrir, selecione o arquivo da aula e clique em abrir.
 ![Abrindo o arquivo adicionado](figures/cocalc4.png 'Abrindo o arquivo adicionado.')
 
 Pronto! A partir daí começaremos nossas aulas. Espero que todos aprendam algo e façam bom proveito do curso. :wave:
+
+<!-- <div
+ style="padding-bottom:73%; position:relative; display:block; width: 100%">
+ <iframe
+  width="100%" height="100%"
+  src="plots/evolucao_decretos.html"
+  frameborder="0" scrolling="no"
+  style="position:absolute; top:0; left: 0"></iframe>
+</div> -->
