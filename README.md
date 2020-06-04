@@ -49,7 +49,7 @@ Iremos entender o significado de cada uma dessas quantidades e como elas influen
 <div
  style="padding-bottom:151%; position:relative; display:block; width:100%">
  <iframe
-  width="50%" height="100%"
+  width="100%" height="100%"
   src="iterative_plots/mruv.html"
   frameborder="0" scrolling="no"
   style="position:absolute; top:0; left: 0"></iframe>
