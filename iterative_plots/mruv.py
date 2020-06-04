@@ -1,8 +1,8 @@
 import numpy as np
 
 from bokeh.layouts import row, column
-from bokeh.models import CustomJS, Slider, Column, Row
-from bokeh.plotting import figure, output_file, show, ColumnDataSource
+from bokeh.models import CustomJS, Slider
+from bokeh.plotting import figure, ColumnDataSource#, output_file, show
 # from bokeh.io import output_notebook
 
 from bokeh.io import save
@@ -23,7 +23,7 @@ source_velocidade = ColumnDataSource(data=dict(x=t, y=v))
 source_aceleracao = ColumnDataSource(data=dict(x=t, y=a))
 
 # kwargs_plot = dict(plot_width=500, plot_height=700)
-kwargs_plot = dict(plot_width=800, plot_height=500)
+kwargs_plot = dict(plot_width=300, plot_height=300)
 
 TOOLTIPS_POSICAO = [
     ("Posição [m]", "@y"),
@@ -186,26 +186,22 @@ slider_posicao_inicial.js_on_change('value', callback_aceleracao)
 #     sizing_mode='scale_width'
 # )
 
-layout = row(
-    column(
-        plot_posicao,
-        column(
-            slider_posicao_inicial,
-            slider_velocidade,
-            slider_aceleracao,
-            sizing_mode='scale_width'
-        ),
-        sizing_mode='scale_width'
-    ),
-    column(
-        plot_velocidade,
-        plot_aceleracao,
+layout = column(
+    plot_posicao,
+    plot_velocidade,
+    plot_aceleracao,
+    row(
+        slider_posicao_inicial,
+        slider_velocidade,
+        slider_aceleracao,
         sizing_mode='scale_width'
     ),
     sizing_mode='scale_width'
-)
+),
+    
 
-# output_file('posicao_velocidade_aceleracao.html', title="Movimento retilíneo uniformemente variável (MRUV)")
 
+# output_file('mruv.html', title="Movimento retilíneo uniformemente variável (MRUV)")
 # show(layout)
+
 save(layout, f"mruv.html")

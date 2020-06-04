@@ -47,9 +47,9 @@ O estudo desses dois movimentos consisti basicamente no estudo de poucas equaç�
 Iremos entender o significado de cada uma dessas quantidades e como elas influenciam o movimento do sistema conforme o tempo passa. Para isso, iremos contar com a ajuda de gráficos que descrevem essas quantidades. Veja abaixo um gráfico dessas três quantidades. Você pode mudar os valores da posição inicial, da velocidade e da aceleração e já ir criando uma intuição do que ocorre em cada tipo de movimento! :grinning:
 
 <div
- style="padding-bottom:65%; position:relative; display:block; width:100%">
+ style="padding-bottom:151%; position:relative; display:block; width:100%">
  <iframe
-  width="100%" height="100%"
+  width="50%" height="100%"
   src="iterative_plots/mruv.html"
   frameborder="0" scrolling="no"
   style="position:absolute; top:0; left: 0"></iframe>
