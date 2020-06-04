@@ -52,7 +52,14 @@ Iremos entender o significado de cada uma dessas quantidades e como elas influen
   width="100%" height="100%"
   src="iterative_plots/mruv.html"
   frameborder="0" scrolling="no"
-  style="position:absolute; top:0; left: 0"></iframe>
+  style="position:absolute; top:0; left: 0">
+  </iframe>
+</div>
+
+<div>
+Para melhor visualização deixe seu celular na horizontal.
+<iframe src="https://giphy.com/embed/hScapv64LYdZe2YO26" width="40" height="40" frameBorder="0" class="giphy-embed" allowFullScreen>
+</iframe>
 </div>
 
 Ficou interessado? :smiley:
