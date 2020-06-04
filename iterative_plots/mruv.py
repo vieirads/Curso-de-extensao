@@ -23,7 +23,7 @@ source_velocidade = ColumnDataSource(data=dict(x=t, y=v))
 source_aceleracao = ColumnDataSource(data=dict(x=t, y=a))
 
 # kwargs_plot = dict(plot_width=500, plot_height=700)
-kwargs_plot = dict(plot_width=300, plot_height=300)
+kwargs_plot = dict(plot_width=300, plot_height=250)
 
 TOOLTIPS_POSICAO = [
     ("Posição [m]", "@y"),
