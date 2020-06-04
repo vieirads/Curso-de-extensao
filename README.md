@@ -42,12 +42,12 @@ Como dito antes, iremos abordar o tema de cinemática, o que consiste a primeira
 O estudo desses dois movimentos consisti basicamente no estudo de poucas equações:
 - a função horária da posição: <img src="https://render.githubusercontent.com/render/math?math=S(t) = S_0 %2B vt %2B \frac{1}{2}at^2">;
 -  a função horária da velocidade: <img src="https://render.githubusercontent.com/render/math?math=v(t) = v_0 %2B at">;
-- a função horária da aceleração: <img src="https://render.githubusercontent.com/render/math?math=a(t) = a = \text{constante}">;
+- a função horária da aceleração:  <img src="https://render.githubusercontent.com/render/math?math=a(t) = a = \text{constante}">;
 
 Iremos entender o significado de cada uma dessas quantidades e como elas influenciam o movimento do sistema conforme o tempo passa. Para isso, iremos contar com a ajuda de gráficos que descrevem essas quantidades. Veja abaixo um gráfico dessas três quantidades. Você pode mudar os valores da posição inicial, da velocidade e da aceleração e já ir criando uma intuição do que ocorre em cada tipo de movimento! :grinning:
 
 <div
- style="padding-bottom:110%; position:relative; display:block; width:100%">
+ style="padding-bottom:65%; position:relative; display:block; width:100%">
  <iframe
   width="100%" height="100%"
   src="iterative_plots/mruv.html"
