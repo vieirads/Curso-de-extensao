@@ -23,20 +23,20 @@ source_velocidade = ColumnDataSource(data=dict(x=t, y=v))
 source_aceleracao = ColumnDataSource(data=dict(x=t, y=a))
 
 # kwargs_plot = dict(plot_width=500, plot_height=700)
-kwargs_plot = dict(plot_width=300, plot_height=250)
+kwargs_plot = dict(plot_width=100, plot_height=100)
 
 TOOLTIPS_POSICAO = [
-    ("Posição [m]", "@y"),
+    ("Posição [m]", "@y{0.00}"),
     ("Tempo [s]"  , "@x")
 ]
 
 TOOLTIPS_VELOCIDADE = [
-    ("Velocidade [m/s]", "@y"),
+    ("Velocidade [m/s]", "@y{0.00}"),
     ("Tempo [s]"       , "@x")
 ]
 
 TOOLTIPS_ACELERACAO = [
-    ("Aceleração [m/s²]", "@y"),
+    ("Aceleração [m/s²]", "@y{0.00}"),
     ("Tempo [s]"        , "@x")
 ]
 
@@ -171,12 +171,9 @@ slider_velocidade.     js_on_change('value', callback_aceleracao)
 slider_posicao_inicial.js_on_change('value', callback_aceleracao)
 
 # layout = column(
-#     row(
-#         plot_posicao,
-#         plot_velocidade,
-#         plot_aceleracao,
-#         sizing_mode='scale_width'
-#     ),
+#     plot_posicao,
+#     plot_velocidade,
+#     plot_aceleracao,
 #     row(
 #         slider_posicao_inicial,
 #         slider_velocidade,
@@ -184,22 +181,25 @@ slider_posicao_inicial.js_on_change('value', callback_aceleracao)
 #         sizing_mode='scale_width'
 #     ),
 #     sizing_mode='scale_width'
-# )
-
+# ),
+    
 layout = column(
-    plot_posicao,
-    plot_velocidade,
-    plot_aceleracao,
-    row(
-        slider_posicao_inicial,
-        slider_velocidade,
-        slider_aceleracao,
-        sizing_mode='scale_width'
+    row([
+        plot_posicao,
+        plot_velocidade
+    ], sizing_mode='scale_width'
+    ),
+    row([
+        plot_aceleracao,
+        column([
+            slider_posicao_inicial,
+            slider_velocidade,
+            slider_aceleracao
+        ])
+    ], sizing_mode='scale_width'
     ),
     sizing_mode='scale_width'
-),
-    
-
+)
 
 # output_file('mruv.html', title="Movimento retilíneo uniformemente variável (MRUV)")
 # show(layout)
