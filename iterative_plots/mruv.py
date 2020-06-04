@@ -1,7 +1,7 @@
 import numpy as np
 
 from bokeh.layouts import row, column
-from bokeh.models import CustomJS, Slider
+from bokeh.models import CustomJS, Slider, Legend
 from bokeh.plotting import figure, ColumnDataSource#, output_file, show
 # from bokeh.io import output_notebook
 
@@ -80,20 +80,18 @@ for counter, plot in enumerate([plot_posicao, plot_velocidade, plot_aceleracao])
     
     if counter == 0:
         plot.yaxis[0].axis_label = 'Posição, s(t) [m]'
-        plot.   line('x', 'y', source=source_posicao, color=COLOR_POSICAO, line_width=3, legend="Posição do carro")
-        plot.scatter('x', 'y', source=source_posicao, color=COLOR_POSICAO, fill_color='#FFFFFF', size=10)
+        plot_line    = plot.   line('x', 'y', source=source_posicao, color=COLOR_POSICAO, line_width=3)#, legend="Posição do carro")
+        plot_scatter = plot.scatter('x', 'y', source=source_posicao, color=COLOR_POSICAO, fill_color='#FFFFFF', size=10)
     elif counter == 1:
         plot.yaxis[0].axis_label = 'Velocidade, v [m/s]'
-        plot.   line('x', 'y', source=source_velocidade, color=COLOR_VELOCIDADE, line_width=3, legend="Velocidade do carro")
+        plot.   line('x', 'y', source=source_velocidade, color=COLOR_VELOCIDADE, line_width=3)#, legend="Velocidade\n do carro")
         plot.scatter('x', 'y', source=source_velocidade, color=COLOR_VELOCIDADE, fill_color='#FFFFFF', size=10)
     elif counter == 2:
         plot.yaxis[0].axis_label = 'Aceleração, a [m/s²]'
-        plot.   line('x', 'y', source=source_aceleracao, color=COLOR_ACELERACAO, line_width=3, legend="Aceleração do carro")
+        plot.   line('x', 'y', source=source_aceleracao, color=COLOR_ACELERACAO, line_width=3)#, legend="Aceleração\n do carro")
         plot.scatter('x', 'y', source=source_aceleracao, color=COLOR_ACELERACAO, fill_color='#FFFFFF', size=10)
 
-    plot.legend.location = 'top_left'
-
-
+    # plot.legend.location = 'bottom_left'
 
 slider_posicao_inicial = Slider(start=-50, end=50, value=0, step=1  , bar_color=COLOR_POSICAO   , title=r"Posição inicial [m]")
 slider_velocidade      = Slider(start=-10, end=10, value=5, step=1  , bar_color=COLOR_VELOCIDADE, title=r"Velocidade [m/s]"   )
