@@ -57,9 +57,11 @@ Iremos entender o significado de cada uma dessas quantidades e como elas influen
 </div>
 
 <div>
-Para melhor visualização deixe seu celular na horizontal.
+<i>Caso esteja usando o celular, coloque-o na horizontal para melhor visualização.</i>
 <iframe src="https://giphy.com/embed/hScapv64LYdZe2YO26" width="30" height="30" frameBorder="0" class="giphy-embed" allowFullScreen>
-</iframe>
+</iframe> 
+<br>
+Passando o mouse ou usando o touch do celular, você pode verificar o valor de cada ponto nos gráficos. 
 </div>
 
 Ficou interessado? :smiley:
