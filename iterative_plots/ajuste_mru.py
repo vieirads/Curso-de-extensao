@@ -28,7 +28,7 @@ TOOLTIPS_POSICAO = [
 source_posicao = ColumnDataSource(data=dict(x=t, y=s))
 
 # cria a figura onde os dados e o ajuste serão mostrados
-plot_posicao = figure(plot_width=100, plot_height=100, tooltips=TOOLTIPS_POSICAO)
+plot_posicao = figure(plot_width=400, plot_height=400, tooltips=TOOLTIPS_POSICAO)
 
 # plotando os dados
 plot_posicao.line   (X_dados, Y_dados, color=COLOR_DADOS, legend='Dados', line_width=3)
@@ -67,8 +67,8 @@ plot_posicao.toolbar_location = None
 plot_posicao.legend.location = 'top_left'
 
 # criando os sliders
-slider_posicao_inicial = Slider(start=-10, end=10, value=0, step=0.01  , bar_color=COLOR_AJUSTE   , title="Coeficiente linear, a")
-slider_velocidade      = Slider(start=-20, end=20, value=5, step=0.05  , bar_color=COLOR_AJUSTE, title="Coeficiente angular, b")
+slider_posicao_inicial = Slider(start=-10, end=10, value=0, step=-0.01  , bar_color=COLOR_AJUSTE, orientation='vertical', direction='rtl', title="Coef. linear, a")
+slider_velocidade      = Slider(start=-20, end=20, value=5, step=-0.05  , bar_color=COLOR_AJUSTE, orientation='vertical', direction='rtl', title="Coef. angular, b")
 
 # cirando o callback para mudar a reta de ajuste dinamicamente
 callback_ajuste = CustomJS(
@@ -97,12 +97,12 @@ slider_posicao_inicial.js_on_change('value', callback_ajuste)
 slider_velocidade.     js_on_change('value', callback_ajuste)
 
 # criando o layout de como ficará disposto o gráfico e os sliders
-layout = column([
+layout = row([
     plot_posicao,
-    column([
+    row([
         slider_posicao_inicial,
         slider_velocidade,
-    ], sizing_mode='scale_width'
+    ]#, sizing_mode='scale_width'
     ),
 ], sizing_mode='scale_width'
 )

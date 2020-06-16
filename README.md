@@ -133,13 +133,21 @@ Iremos entender o significado de cada uma dessas quantidades e como elas influen
 </div>
 
 <p>
-Vá criando uma intuição do que é ajustar um modelo aos dados. Começo com o exemplo simples de uma reta. Tente mudar os parâmetros para que o ajuste se aproxime o máximo dos dados!
+Vá criando uma intuição do que é ajustar um modelo aos dados. Começo com o exemplo simples de uma reta:
+</p>
+
+<div align='center'>
+     <img src="https://render.githubusercontent.com/render/math?math=S(t) = a %2B bt.">
+</div>
+
+<p>
+Tente mudar os parâmetros  <img src="https://render.githubusercontent.com/render/math?math=a"> e  <img src="https://render.githubusercontent.com/render/math?math=b"> para que o ajuste se aproxime o máximo dos dados!
 </p>
 
 <div
- style="padding-bottom:90%; position:relative; display:block; width:100%">
+ style="padding-bottom:50%; position:relative; display:block; width:100%">
  <iframe
-  width="80%" height="100%"
+  width="100%" height="100%"
   src="iterative_plots/ajuste_mru.html"
   frameborder="0" scrolling="no"
   style="position:absolute; top:0; left: 0">
