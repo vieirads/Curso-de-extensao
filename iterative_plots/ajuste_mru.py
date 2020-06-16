@@ -104,7 +104,7 @@ layout = row(
         slider_velocidade,
         sizing_mode='scale_width'
     ),
-#     sizing_mode='scale_width'
+    sizing_mode='scale_width'
 )
 
 # salvando o layout
