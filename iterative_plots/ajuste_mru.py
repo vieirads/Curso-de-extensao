@@ -97,7 +97,7 @@ slider_posicao_inicial.js_on_change('value', callback_ajuste)
 slider_velocidade.     js_on_change('value', callback_ajuste)
 
 # criando o layout de como ficará disposto o gráfico e os sliders
-layout = row([
+layout = column([
     plot_posicao,
     column([
         slider_posicao_inicial,

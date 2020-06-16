@@ -137,9 +137,9 @@ Vá criando uma intuição do que é ajustar um modelo aos dados. Começo com o 
 </p>
 
 <div
- style="padding-bottom:100%; position:relative; display:block; width:100%">
+ style="padding-bottom:90%; position:relative; display:block; width:100%">
  <iframe
-  width="100%" height="100%"
+  width="80%" height="100%"
   src="iterative_plots/ajuste_mru.html"
   frameborder="0" scrolling="no"
   style="position:absolute; top:0; left: 0">
