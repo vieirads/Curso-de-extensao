@@ -132,6 +132,21 @@ Iremos entender o significado de cada uma dessas quantidades e como elas influen
   </iframe>
 </div>
 
+<p>
+Vá criando uma intuição do que é ajustar um modelo aos dados. Começo com o exemplo simples de uma reta. Tente mudar os parâmetros para que o ajuste se aproxime o máximo dos dados!
+</p>
+
+<div
+ style="padding-bottom:50%; position:relative; display:block; width:100%">
+ <iframe
+  width="100%" height="100%"
+  src="iterative_plots/ajuste_mru.html"
+  frameborder="0" scrolling="no"
+  style="position:absolute; top:0; left: 0">
+  </iframe>
+</div>
+
+
 <div align='justify'>
 <i>Caso esteja usando o celular, coloque-o na horizontal para melhor visualização.</i>
 <iframe src="https://giphy.com/embed/hScapv64LYdZe2YO26" width="30" height="30" frameBorder="0" class="giphy-embed" allowFullScreen>
@@ -185,7 +200,7 @@ O uso dos <mark class='mono_gray'>Notebooks</mark> será feito exclusivamente <i
 Para fazer o uso dessa plataforma, basta clicar no link <a href='https://colab.research.google.com/notebooks/intro.ipynb#recent=true' target='_blank'>Google Colab</a>. Você só precisa estar "logado" com seu <mark class='mono_gray'>gmail</mark> para que possa adicionar os arquivos das aulas. Uma vez que estiver "logado" em sua conta, basta você clicar em <mark class='mono_gray'>Upload</mark>.
 </p>
 
-<figure>
+<figure align='center'>
     <img src='figures/colab.png' alt='Adicionando arquivo ao Google Colab.'><br>
     <figcaption><b>Fig. 2:</b> Adicionando arquivo ao Google Colab.</figcaption>
 </figure>
@@ -201,7 +216,7 @@ Quando a janela de diálogo abrir, selecione o arquivo da aula e clique em abrir
 Para fazer o uso dessa plataforma, basta clicar no link <a href='https://cocalc.com/' target='_blank'>CoCalc</a>. Não é necessário fazer o uso de login (Sign in) e nem instalar nenhuma dependência em seu computador. Quando você entrar, clique no botão verde escrito <mark class='mono_gray'>Run CoCalc now</mark>.
 </p>
 
-<figure>
+<figure align='center'>
     <img src='figures/cocalc1.png' alt='Páginal inicial do CoCalc.'><br>
     <figcaption><b>Fig. 3:</b> Página inicial do CoCalc.</figcaption>
 </figure>
@@ -212,7 +227,7 @@ Para fazer o uso dessa plataforma, basta clicar no link <a href='https://cocalc.
 Após isso, você será redirecionado para uma outra página, mostrada na figura abaixo. Na seção <mark class='mono_gray'>Suggested Kernels</mark>, clique em <mark class='mono_gray'>File</mark> no canto superior esquerdo e então em <mark class='mono_gray'>Upload</mark>.
 </p>
 
-<figure>
+<figure align='center'>
     <img src='figures/cocalc2.png' alt='Selecionando o kernel no CoCalc.'>
     <figcaption><b>Fig. 4:</b> Selecionando o kernel no CoCalc.</figcaption>
 </figure>
@@ -222,7 +237,7 @@ Após isso, você será redirecionado para uma outra página, mostrada na figura
 Na próxima página, clique mais uma vez no botão de upload, no canto superior direito da tela.
 </p>
 
-<figure>
+<figure align='center'>
     <img src='figures/cocalc3.png' alt='Upload do Notebook no CoCalc.'><br>
     <figcaption><b>Fig. 5:</b> Upload do Notebook no CoCalc.</figcaption>
 </figure>
@@ -232,7 +247,7 @@ Na próxima página, clique mais uma vez no botão de upload, no canto superior 
 Quando a janela de dialogo abrir, selecione o arquivo da aula e clique em abrir. Após o arquivo ser carregado, você verá que ele está disponível para ser aberto. 
 </p>
 
-<figure>
+<figure align='center'>
     <img src='figures/cocalc4.png' alt='Abrindo o arquivo adicionado no CoCalc.'><br>
     <figcaption><b>Fig. 6:</b> Abrindo o arquivo adicionado no CoCalc.</figcaption>
 </figure>
