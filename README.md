@@ -159,7 +159,7 @@ Para isso, basta clicar aqui: <a href='https://github.com/vieirads/Curso-de-exte
 </p>
 
 <figure align='center'>
-    <img src='figures/git1.png' alt='Instruções para baixar o repositório.' width=400>
+    <img src='figures/git1.png' alt='Instruções para baixar o repositório.' style='width: 400px'>
     <figcaption><b>Fig. 1:</b> Fazendo o download dos arquivos.</figcaption>
 </figure>
 
