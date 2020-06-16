@@ -158,12 +158,10 @@ Você precisará do repositório para usar o <mark class='mono_gray'>Jupyter Not
 Para isso, basta clicar aqui: <a href='https://github.com/vieirads/Curso-de-extens-o/archive/master.zip'>Baixar repositório</a>. Se o link não funcionar, clique no botão verde, escrito <mark class='mono_gray'>Clone or download</mark>, e então fazer o <mark class='mono_gray'>Download ZIP</mark>. 
 </p>
 
-<div class='figure' id='fig_git' align=center>
-    <figure>
+<figure align='center'>
     <img src='figures/git1.png' alt='Instruções para baixar o repositório.' width=400><br>
     <figcaption align='center'><b>Fig. 1:</b> Fazendo o download dos arquivos.</figcaption>
-    </figure>
-</div>
+</figure>
 
 <p>
 Salve o arquivo em um local que for mais apropriado e descompacte-o. 
