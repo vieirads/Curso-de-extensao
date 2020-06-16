@@ -20,11 +20,11 @@
 # Curso de Extensão 📚
 
 <p>
-Bem vindo ao curso de extensão oferecido pelo <a href='http://site.dfi.uem.br/'>Departamento de Física (DFI)</a> da <a href='http://www.uem.br/'>Universidade Estadual de Maringá (UEM)</a>. 
+Bem vindo ao curso de extensão oferecido pelo <a href='http://site.dfi.uem.br/' target='_blank'>Departamento de Física (DFI)</a> da <a href='http://www.uem.br/' target='_blank'>Universidade Estadual de Maringá (UEM)</a>. 
 </p>
 
 <p>
-Esse curso será dedicado ao aprendizado de ferramentas básicas da linguagem de programação <a href='https://www.python.org/'>Python</a>. Essas serão utilizadas para analisar e interpretar dados provenientes de experimentos de física básica. O curso é de caráter introdutório, portanto, se aplicado em casos simples como o movimento retilíneo uniforme (MRU) e o movimento retilíneo uniformemente variável (MRUV). Esses são os primeiros experimentos estudados e executados na disciplina de <a href='http://site.dfi.uem.br/wp-content/uploads/2016/10/3057-Lab.-Fisica-Geral-I-programa-2007.pdf'>Laboratório de Física Geral I/Física Experimental I</a>, oferecida pelo DFI, baseada no <a heref='http://site.dfi.uem.br/wp-content/uploads/2018/04/Manual-de-Laborat%C3%B3rio-de-F%C3%ADsica-Experimental-I.pdf'>Manual de laboratório de Física Experimental I</a>
+Esse curso será dedicado ao aprendizado de ferramentas básicas da linguagem de programação <a href='https://www.python.org/' target='_blank'>Python</a>. Essas serão utilizadas para analisar e interpretar dados provenientes de experimentos de física básica. O curso é de caráter introdutório, portanto, se aplicado em casos simples como o movimento retilíneo uniforme (MRU) e o movimento retilíneo uniformemente variável (MRUV). Esses são os primeiros experimentos estudados e executados na disciplina de <a href='http://site.dfi.uem.br/wp-content/uploads/2016/10/3057-Lab.-Fisica-Geral-I-programa-2007.pdf' target='_blank'>Laboratório de Física Geral I/Física Experimental I</a>, oferecida pelo DFI, baseada no <a heref='http://site.dfi.uem.br/wp-content/uploads/2018/04/Manual-de-Laborat%C3%B3rio-de-F%C3%ADsica-Experimental-I.pdf' target='_blank'>Manual de laboratório de Física Experimental I</a>
 </p>
 
 # Conteúdo do Curso
@@ -34,12 +34,12 @@ Durante o curso, abordaremos conceitos de física básica e analisaremos alguns 
 </p>
 
 <ul>
-    <li>estruturar os dados com a biblioteca <a href='https://pandas.pydata.org/'><mark class='mono_gray'>pandas</mark></a> 🐼 e <a href='https://numpy.org/'><mark class='mono_gray'>numpy</mark></a>;
+    <li>estruturar os dados com a biblioteca <a href='https://pandas.pydata.org/' target='_blank'><mark class='mono_gray'>pandas</mark></a> 🐼 e <a href='https://numpy.org/' target='_blank'><mark class='mono_gray'>numpy</mark></a>;
         <li class='ident'>o uso dessas bibliotecas nos permite uma visualização melhor dos dados;</li>
         <li class='ident'>elas permitem uma facilidade na implementação de funções necessárias para nossas análises, como calcular média e desvio padrão;</li>
     </li>
     <!--  -->
-    <li> confeccionar gráficos usando o pacote <a href='https://matplotlib.org/'>matplotlib</a> 📈;
+    <li> confeccionar gráficos usando o pacote <a href='https://matplotlib.org/' target='_blank'>matplotlib</a> 📈;
         <li class='ident'>a partir de gráficos podemos ver tendências nos dados e então sugerir modelos teóricos;</li>
         <li class='ident'>inspecionar visualmente a concordância entre os dados e o modelo proposto;</li>
     </li>
@@ -52,7 +52,7 @@ Durante o curso, abordaremos conceitos de física básica e analisaremos alguns 
         <li class='ident'>trabalharemos também com modelos não lineares, como polinômios de grau dois;</li>
     </li>
     <!--  -->
-    <li> aprender a ajustar modelos usando a função <mark class='mono_gray'>polyfit</mark> do <mark class='mono_gray'>numpy</mark> e usando pacote de <i>machine learning</i> 🤖 <a href='https://scikit-learn.org/stable/'><mark class='mono_gray'>sklearn</mark></a>;
+    <li> aprender a ajustar modelos usando a função <mark class='mono_gray'>polyfit</mark> do <mark class='mono_gray'>numpy</mark> e usando pacote de <i>machine learning</i> 🤖 <a href='https://scikit-learn.org/stable/' target='_blank'><mark class='mono_gray'>sklearn</mark></a>;
     </li>
     <!--  -->
     <li> analisar quantitativamente a qualidade do modelo;
@@ -155,7 +155,7 @@ Você precisará do repositório para usar o <mark class='mono_gray'>Jupyter Not
 </p>
 
 <p>
-Para isso, basta clicar aqui: <a href='https://github.com/vieirads/Curso-de-extens-o/archive/master.zip'>Baixar repositório</a>. Se o link não funcionar, entre no <a href='https://github.com/vieirads/Curso-de-extensao'>repositório do GitHub</a> e clique no botão verde, escrito <mark class='mono_gray'>Clone or download</mark>, e então fazer o <mark class='mono_gray'>Download ZIP</mark>. 
+Para isso, basta clicar aqui: <a href='https://github.com/vieirads/Curso-de-extens-o/archive/master.zip' target='_blank'>Baixar repositório</a>. Se o link não funcionar, entre no <a href='https://github.com/vieirads/Curso-de-extensao' target='_blank'>repositório do GitHub</a> e clique no botão verde, escrito <mark class='mono_gray'>Clone or download</mark>, e então fazer o <mark class='mono_gray'>Download ZIP</mark>. 
 </p>
 
 <figure align='center'>
@@ -170,7 +170,7 @@ Salve o arquivo em um local que for mais apropriado e descompacte-o.
 # Pasta <mark class='mono_gray'>Aulas</mark> 📂
 
 <p>
-Nessa pasta você encontrará arquivos com a extensão <mark class='mono_gray'>.ipynb</mark>. Esses arquivos são os <mark class='mono_gray'>Notebooks</mark> que trabalharemos. Eles contêm textos baseados no <a href='http://site.dfi.uem.br/wp-content/uploads/2018/04/Manual-de-Laborat%C3%B3rio-de-F%C3%ADsica-Experimental-I.pdf'>Manual de Laboratório de Física Experimental I</a> e instruções de como os dados experimentais podem ser analisados usando a linguagem de programação <mark class='mono_gray'>Python</mark>.
+Nessa pasta você encontrará arquivos com a extensão <mark class='mono_gray'>.ipynb</mark>. Esses arquivos são os <mark class='mono_gray'>Notebooks</mark> que trabalharemos. Eles contêm textos baseados no <a href='http://site.dfi.uem.br/wp-content/uploads/2018/04/Manual-de-Laborat%C3%B3rio-de-F%C3%ADsica-Experimental-I.pdf' target='_blank'>Manual de Laboratório de Física Experimental I</a> e instruções de como os dados experimentais podem ser analisados usando a linguagem de programação <mark class='mono_gray'>Python</mark>.
 </p>
 
 # Usando os Notebooks 📔
@@ -182,7 +182,7 @@ O uso dos <mark class='mono_gray'>Notebooks</mark> será feito exclusivamente <i
 # Google Colab Notebook
 
 <p>
-Para fazer o uso dessa plataforma, basta clicar no link <a href='https://colab.research.google.com/notebooks/intro.ipynb#recent=true'>Google Colab</a>. Você só precisa estar "logado" com seu <mark class='mono_gray'>gmail</mark> para que possa adicionar os arquivos das aulas. Uma vez que estiver "logado" em sua conta, basta você clicar em <mark class='mono_gray'>Upload</mark>.
+Para fazer o uso dessa plataforma, basta clicar no link <a href='https://colab.research.google.com/notebooks/intro.ipynb#recent=true' target='_blank'>Google Colab</a>. Você só precisa estar "logado" com seu <mark class='mono_gray'>gmail</mark> para que possa adicionar os arquivos das aulas. Uma vez que estiver "logado" em sua conta, basta você clicar em <mark class='mono_gray'>Upload</mark>.
 </p>
 
 <figure>
@@ -198,7 +198,7 @@ Quando a janela de diálogo abrir, selecione o arquivo da aula e clique em abrir
 # CoCalc
 
 <p>
-Para fazer o uso dessa plataforma, basta clicar no link <a href='https://cocalc.com/'>CoCalc</a>. Não é necessário fazer o uso de login (Sign in) e nem instalar nenhuma dependência em seu computador. Quando você entrar, clique no botão verde escrito <mark class='mono_gray'>Run CoCalc now</mark>.
+Para fazer o uso dessa plataforma, basta clicar no link <a href='https://cocalc.com/' target='_blank'>CoCalc</a>. Não é necessário fazer o uso de login (Sign in) e nem instalar nenhuma dependência em seu computador. Quando você entrar, clique no botão verde escrito <mark class='mono_gray'>Run CoCalc now</mark>.
 </p>
 
 <figure>
