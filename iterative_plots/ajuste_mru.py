@@ -28,7 +28,7 @@ TOOLTIPS_POSICAO = [
 source_posicao = ColumnDataSource(data=dict(x=t, y=s))
 
 # cria a figura onde os dados e o ajuste serão mostrados
-plot_posicao = figure(plot_width=500, plot_height=400, tooltips=TOOLTIPS_POSICAO)
+plot_posicao = figure(plot_width=100, plot_height=100, tooltips=TOOLTIPS_POSICAO)
 
 # plotando os dados
 plot_posicao.line   (X_dados, Y_dados, color=COLOR_DADOS, legend='Dados', line_width=3)
