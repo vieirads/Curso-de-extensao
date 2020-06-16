@@ -159,8 +159,8 @@ Para isso, basta clicar aqui: <a href='https://github.com/vieirads/Curso-de-exte
 </p>
 
 <figure align='center'>
-    <img src='figures/git1.png' alt='Instruções para baixar o repositório.' width=400><br>
-    <figcaption align='center'><b>Fig. 1:</b> Fazendo o download dos arquivos.</figcaption>
+    <img src='figures/git1.png' alt='Instruções para baixar o repositório.' width=400>
+    <figcaption><b>Fig. 1:</b> Fazendo o download dos arquivos.</figcaption>
 </figure>
 
 <p>
@@ -170,7 +170,7 @@ Salve o arquivo em um local que for mais apropriado e descompacte-o.
 # Pasta <mark class='mono_gray'>Aulas</mark> 📂
 
 <p>
-Nessa pasta você encontrará arquivos com a extensão <mark class='mono_gray'>.ipynb</mark>. Esses arquivos são os <mark class='mono_gray'>Notebooks</mark> que trabalharemos. Eles contêm textos baseados no <a href='http://site.dfi.uem.br/wp-content/uploads/2018/04/Manual-de-Laborat%C3%B3rio-de-F%C3%ADsica-Experimental-I.pdf'>Manual de Laboratório de Física Experimental I</a> e instruções de como os dados experimentais podem ser analisados usando a linguagem de programação <mark class='mono_gray'>Python</mark>``.
+Nessa pasta você encontrará arquivos com a extensão <mark class='mono_gray'>.ipynb</mark>. Esses arquivos são os <mark class='mono_gray'>Notebooks</mark> que trabalharemos. Eles contêm textos baseados no <a href='http://site.dfi.uem.br/wp-content/uploads/2018/04/Manual-de-Laborat%C3%B3rio-de-F%C3%ADsica-Experimental-I.pdf'>Manual de Laboratório de Física Experimental I</a> e instruções de como os dados experimentais podem ser analisados usando a linguagem de programação <mark class='mono_gray'>Python</mark>.
 </p>
 
 # Usando os Notebooks 📔
@@ -187,7 +187,7 @@ Para fazer o uso dessa plataforma, basta clicar no link <a href='https://colab.r
 
 <figure>
     <img src='figures/colab.png' alt='Adicionando arquivo ao Google Colab.'><br>
-    <figcaption align='center'><b>Fig. 2:</b> Adicionando arquivo ao Google Colab.</figcaption>
+    <figcaption><b>Fig. 2:</b> Adicionando arquivo ao Google Colab.</figcaption>
 </figure>
 <!-- ![Adicionando arquivo ao Google Colab.](figures/colab.png 'Adicionando arquivo ao Google Colab.') -->
 
@@ -203,7 +203,7 @@ Para fazer o uso dessa plataforma, basta clicar no link <a href='https://cocalc.
 
 <figure>
     <img src='figures/cocalc1.png' alt='Páginal inicial do CoCalc.'><br>
-    <figcaption align='center'><b>Fig. 3:</b> Página inicial do CoCalc.</figcaption>
+    <figcaption><b>Fig. 3:</b> Página inicial do CoCalc.</figcaption>
 </figure>
 
 <!-- ![Página inicial do CoCalc.](figures/cocalc1.png 'Página inicial do CoCalc.') -->
@@ -214,7 +214,7 @@ Após isso, você será redirecionado para uma outra página, mostrada na figura
 
 <figure>
     <img src='figures/cocalc2.png' alt='Selecionando o kernel no CoCalc.'>
-    <figcaption align='center'><b>Fig. 4:</b> Selecionando o kernel no CoCalc.</figcaption>
+    <figcaption><b>Fig. 4:</b> Selecionando o kernel no CoCalc.</figcaption>
 </figure>
 <!-- ![Selecionando o Kernel](figures/cocalc2.png 'Selecionando o Kernel.') -->
 
@@ -224,7 +224,7 @@ Na próxima página, clique mais uma vez no botão de upload, no canto superior 
 
 <figure>
     <img src='figures/cocalc3.png' alt='Upload do Notebook no CoCalc.'><br>
-    <figcaption align='center'><b>Fig. 5:</b> Upload do Notebook no CoCalc.</figcaption>
+    <figcaption><b>Fig. 5:</b> Upload do Notebook no CoCalc.</figcaption>
 </figure>
 <!-- ![Upload do Notebook](figures/cocalc3.png 'Upload do Notebook.') -->
 
@@ -234,7 +234,7 @@ Quando a janela de dialogo abrir, selecione o arquivo da aula e clique em abrir.
 
 <figure>
     <img src='figures/cocalc4.png' alt='Abrindo o arquivo adicionado no CoCalc.'><br>
-    <figcaption align='center'><b>Fig. 6:</b> Abrindo o arquivo adicionado no CoCalc.</figcaption>
+    <figcaption><b>Fig. 6:</b> Abrindo o arquivo adicionado no CoCalc.</figcaption>
 </figure>
 <!-- ![Abrindo o arquivo adicionado](figures/cocalc4.png 'Abrindo o arquivo adicionado.') -->
 
