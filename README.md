@@ -155,7 +155,7 @@ Você precisará do repositório para usar o <mark class='mono_gray'>Jupyter Not
 </p>
 
 <p>
-Para isso, basta clicar aqui: <a href='https://github.com/vieirads/Curso-de-extens-o/archive/master.zip'>Baixar repositório</a>. Se o link não funcionar, clique no botão verde, escrito <mark class='mono_gray'>Clone or download</mark>, e então fazer o <mark class='mono_gray'>Download ZIP</mark>. 
+Para isso, basta clicar aqui: <a href='https://github.com/vieirads/Curso-de-extens-o/archive/master.zip'>Baixar repositório</a>. Se o link não funcionar, entre no <a href='https://github.com/vieirads/Curso-de-extensao'>repositório do GitHub</a> e clique no botão verde, escrito <mark class='mono_gray'>Clone or download</mark>, e então fazer o <mark class='mono_gray'>Download ZIP</mark>. 
 </p>
 
 <figure align='center'>
