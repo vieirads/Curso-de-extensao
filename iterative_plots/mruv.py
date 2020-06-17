@@ -93,9 +93,9 @@ for counter, plot in enumerate([plot_posicao, plot_velocidade, plot_aceleracao])
 
     # plot.legend.location = 'bottom_left'
 
-slider_posicao_inicial = Slider(start=-50, end=50, value=0, step=1  , bar_color=COLOR_POSICAO   , title=r"Posição inicial [m]")
-slider_velocidade      = Slider(start=-10, end=10, value=5, step=1  , bar_color=COLOR_VELOCIDADE, title=r"Velocidade [m/s]"   )
-slider_aceleracao      = Slider(start=-3 , end=3 , value=0, step=0.5, bar_color=COLOR_ACELERACAO, title=r"Aceleração [m/s²]"  )
+slider_posicao_inicial = Slider(start=-50, end=50, value=0, step=0.1, bar_color=COLOR_POSICAO   , title=r"Posição inicial [m]")
+slider_velocidade      = Slider(start=-10, end=10, value=5, step=0.1, bar_color=COLOR_VELOCIDADE, title=r"Velocidade [m/s]"   )
+slider_aceleracao      = Slider(start=-3 , end=3 , value=0, step=0.1, bar_color=COLOR_ACELERACAO, title=r"Aceleração [m/s²]"  )
 
 callback_posicao = CustomJS(
         args=dict(
