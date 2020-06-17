@@ -29,7 +29,7 @@ s = t
 r2 = coef_determinacao(Y_dados, s)
 dummy_texts = ['R2 = {}'.format(r2), '', '', '', '']
 dummy_x = [0.1 for _ in X_dados]
-dummy_y = [45  for _ in X_dados]
+dummy_y = [35  for _ in X_dados]
 
 # cores a serem usadas no plot
 COLOR_DADOS  = "#0095DD"
@@ -89,7 +89,7 @@ plot_posicao.legend.location = 'top_left'
 #                  border_line_color='black', border_line_alpha=1.0,
 #                  background_fill_color='white', background_fill_alpha=1.0)
 
-citation = LabelSet(x='posx', y='posy', text='text', source=source_posicao)
+citation = LabelSet(x=1.5, y=55, text='text', source=source_posicao, render_mode='css', border_line_color='black', background_fill_color='white')
 
 plot_posicao.add_layout(citation)
 

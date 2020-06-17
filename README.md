@@ -6,7 +6,7 @@
 
     li.ident {
         margin-left: 20px;
-        line-height: 20px;
+        line-height: 30px;
         text-align: justify;
     }
 
