@@ -41,21 +41,21 @@ TOOLTIPS_ACELERACAO = [
 ]
 
 plot_posicao = figure(
-    y_range=(-550, 550),
+    # y_range=(-550, 550),
     **kwargs_plot,
     title='Posição em funcão do tempo.',
     tooltips=TOOLTIPS_POSICAO
              )
 
 plot_velocidade = figure(
-    y_range=(-70, 70),
+    y_range=(-180, 180),
     **kwargs_plot,
     title='Velocidade em função do tempo.',
     tooltips=TOOLTIPS_VELOCIDADE
 )
 
 plot_aceleracao = figure(
-    y_range=(-5,5),
+    y_range=(-12,12),
     **kwargs_plot,
     title='Aceleração em função do tempo.',
     tooltips=TOOLTIPS_ACELERACAO
@@ -93,9 +93,9 @@ for counter, plot in enumerate([plot_posicao, plot_velocidade, plot_aceleracao])
 
     # plot.legend.location = 'bottom_left'
 
-slider_posicao_inicial = Slider(start=-50, end=50, value=0, step=0.1, bar_color=COLOR_POSICAO   , title=r"Posição inicial, s0 [m]"     )
-slider_velocidade      = Slider(start=-10, end=10, value=5, step=0.1, bar_color=COLOR_VELOCIDADE, title=r"Velocidade inicial, v0 [m/s]")
-slider_aceleracao      = Slider(start=-3 , end=3 , value=0, step=0.1, bar_color=COLOR_ACELERACAO, title=r"Aceleração, a [m/s²]"        )
+slider_posicao_inicial = Slider(start=-100, end=100, value=0, step=0.01, bar_color=COLOR_POSICAO   , title=r"Posição inicial, s0 [m]"     )
+slider_velocidade      = Slider(start=-20 , end=20 , value=5, step=0.01, bar_color=COLOR_VELOCIDADE, title=r"Velocidade inicial, v0 [m/s]")
+slider_aceleracao      = Slider(start=-10 , end=10 , value=0, step=0.01, bar_color=COLOR_ACELERACAO, title=r"Aceleração, a [m/s²]"        )
 
 callback_posicao = CustomJS(
         args=dict(
