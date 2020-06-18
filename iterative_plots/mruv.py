@@ -83,7 +83,7 @@ for counter, plot in enumerate([plot_posicao, plot_velocidade, plot_aceleracao])
         plot_line    = plot.   line('x', 'y', source=source_posicao, color=COLOR_POSICAO, line_width=3)#, legend="Posição do carro")
         plot_scatter = plot.scatter('x', 'y', source=source_posicao, color=COLOR_POSICAO, fill_color='#FFFFFF', size=10)
     elif counter == 1:
-        plot.yaxis[0].axis_label = 'Velocidade, v [m/s]'
+        plot.yaxis[0].axis_label = 'Velocidade, v(t) [m/s]'
         plot.   line('x', 'y', source=source_velocidade, color=COLOR_VELOCIDADE, line_width=3)#, legend="Velocidade\n do carro")
         plot.scatter('x', 'y', source=source_velocidade, color=COLOR_VELOCIDADE, fill_color='#FFFFFF', size=10)
     elif counter == 2:
@@ -93,9 +93,9 @@ for counter, plot in enumerate([plot_posicao, plot_velocidade, plot_aceleracao])
 
     # plot.legend.location = 'bottom_left'
 
-slider_posicao_inicial = Slider(start=-50, end=50, value=0, step=0.1, bar_color=COLOR_POSICAO   , title=r"Posição inicial [m]")
-slider_velocidade      = Slider(start=-10, end=10, value=5, step=0.1, bar_color=COLOR_VELOCIDADE, title=r"Velocidade [m/s]"   )
-slider_aceleracao      = Slider(start=-3 , end=3 , value=0, step=0.1, bar_color=COLOR_ACELERACAO, title=r"Aceleração [m/s²]"  )
+slider_posicao_inicial = Slider(start=-50, end=50, value=0, step=0.1, bar_color=COLOR_POSICAO   , title=r"Posição inicial, s0 [m]"     )
+slider_velocidade      = Slider(start=-10, end=10, value=5, step=0.1, bar_color=COLOR_VELOCIDADE, title=r"Velocidade inicial, v0 [m/s]")
+slider_aceleracao      = Slider(start=-3 , end=3 , value=0, step=0.1, bar_color=COLOR_ACELERACAO, title=r"Aceleração, a [m/s²]"        )
 
 callback_posicao = CustomJS(
         args=dict(
