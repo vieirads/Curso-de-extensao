@@ -27,3 +27,7 @@ li.sub-item:before {
     text-align: justify;
     font-weight: bold;
 }
+
+.container {
+    width: 95% !important;
+}
