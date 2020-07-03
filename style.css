@@ -1,6 +1,8 @@
 /*This file contains any manual css for this page that needs to override the global styles.
 This is only required when different pages style the same element differently. This is just
 a hack to deal with our current css styles and no new styling should be added in this file.*/
+/* CSS stylesheet to make paragraphs justified, create lists with subitem numbering 
+and highlight words in gray with font-family monospace */
 
 p.justified {
     text-align: justify;
@@ -26,8 +28,4 @@ li.sub-item:before {
     counter-increment: item;
     text-align: justify;
     font-weight: bold;
-}
-
-.container {
-    width: 95% !important;
 }
