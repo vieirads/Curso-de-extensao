@@ -6,7 +6,6 @@ and highlight words in gray with font-family monospace */
 
 p.justified {
     text-align: justify;
-    margin-left: 10em;
 }
 
 mark.mono_gray {
