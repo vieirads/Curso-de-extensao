@@ -16,6 +16,8 @@ p.justified {
 mark.mono_gray {
     background-color: #f0f0f0;
     font-family: monospace;
+    border-radius: 5px;
+    padding: 2px;
 }
 
 ol.sub-item { 

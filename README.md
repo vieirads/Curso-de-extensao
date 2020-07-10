@@ -2,6 +2,9 @@
     mark.mono_gray {
         background-color: #f0f0f0;
         font-family: monospace;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        padding: 2px;
     }
 
     li.ident {
@@ -13,9 +16,14 @@
     p {
         text-align: justify;
     }
+
+    img.aw {
+        width: 100%;
+        height: auto;
+    }
 </style>
 
-<img src='figures/logo_uem.png'>
+<img src='figures/logo_uem.png' class="aw">
 
 # Curso de Extensão 📚
 
@@ -24,13 +32,13 @@ Bem vindo ao curso de extensão oferecido pelo <a href='http://site.dfi.uem.br/'
 </p>
 
 <p>
-Esse curso será dedicado ao aprendizado de ferramentas básicas da linguagem de programação <a href='https://www.python.org/' target='_blank'>Python</a>. Essas serão utilizadas para analisar e interpretar dados provenientes de experimentos de física básica. O curso é de caráter introdutório, portanto, se aplicando em casos simples como o movimento retilíneo uniforme (MRU) e o movimento retilíneo uniformemente variável (MRUV). Esses são os primeiros experimentos estudados e executados na disciplina de <a href='http://site.dfi.uem.br/wp-content/uploads/2016/10/3057-Lab.-Fisica-Geral-I-programa-2007.pdf' target='_blank'>Laboratório de Física Geral I/Física Experimental I</a>, oferecida pelo DFI, baseada no <a heref='http://site.dfi.uem.br/wp-content/uploads/2018/04/Manual-de-Laborat%C3%B3rio-de-F%C3%ADsica-Experimental-I.pdf' target='_blank'>Manual de laboratório de Física Experimental I</a>
+Esse curso será dedicado ao aprendizado de ferramentas básicas da linguagem de programação <a href='https://www.python.org/' target='_blank'><mark class='mono_gray'>Python</mark></a>. Essas serão utilizadas para analisar e interpretar dados provenientes de experimentos de física básica. O curso é de caráter introdutório, portanto, se aplicando em casos simples como o movimento retilíneo uniforme (MRU) e o movimento retilíneo uniformemente variável (MRUV). Esses são os primeiros experimentos estudados e executados na disciplina de <a href='http://site.dfi.uem.br/wp-content/uploads/2016/10/3057-Lab.-Fisica-Geral-I-programa-2007.pdf' target='_blank'>Laboratório de Física Geral I/Física Experimental I</a>, oferecida pelo DFI, baseada no <a heref='http://site.dfi.uem.br/wp-content/uploads/2018/04/Manual-de-Laborat%C3%B3rio-de-F%C3%ADsica-Experimental-I.pdf' target='_blank'>Manual de laboratório de Física Experimental I</a>
 </p>
 
 # Conteúdo do Curso
 
 <p>
-Durante o curso, abordaremos conceitos de física básica e analisaremos alguns experimentos. Nosso objetivo é detalhar as observações feitas e criar modelos que expliquem os fenômenos observados. As análises dos dados serão feitas na linguagem de programação <mark class='mono_gray'>Python</mark> 🐍. Iremos apresentar o básico de como:
+Durante o curso, abordaremos conceitos de física básica e analisaremos alguns experimentos. Nosso objetivo é detalhar as observações feitas e criar modelos que expliquem os fenômenos observados. As análises dos dados serão feitas na linguagem de programação <a href='https://www.python.org/' target='_blank'><mark class='mono_gray'>Python</mark></a> 🐍. Iremos apresentar o básico de como:
 </p>
 
 <ul>
@@ -52,7 +60,7 @@ Durante o curso, abordaremos conceitos de física básica e analisaremos alguns 
         <li class='ident'>trabalharemos também com modelos não lineares, como polinômios;</li>
     </li>
     <!--  -->
-    <li> os ajustes serão feitos usando as função <mark class='mono_gray'>polyfit()</mark> do <mark class='mono_gray'>numpy</mark> e <mark class='mono_gray'>optmize.curve_fit()</mark> do <a href="https://docs.scipy.org/doc/scipy/reference/index.html" target="_blank"><mark class='mono_gray'>scipy</mark></a>;</li>
+    <li> os ajustes serão feitos usando as função <a href="https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html" target="_blank"><mark class='mono_gray'>polyfit()</mark></a> do <mark class='mono_gray'>numpy</mark> e <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html" target="_blank"><mark class='mono_gray'>optimize.curve_fit()</mark></a> do <a href="https://docs.scipy.org/doc/scipy/reference/index.html" target="_blank"><mark class='mono_gray'>scipy</mark></a>;</li>
     <li> veremos também, brevemente, como fazer uma regressão linear usando pacote de <i>machine learning</i> 🤖 <a href='https://scikit-learn.org/stable/' target='_blank'><mark class='mono_gray'>sklearn</mark></a>;
     </li>
     <!--  -->
@@ -182,7 +190,7 @@ Você precisará do repositório para usar o <mark class='mono_gray'>Jupyter Not
 </p>
 
 <p>
-Para isso, basta clicar aqui: <a href='https://github.com/vieirads/Curso-de-extens-o/archive/master.zip' target='_blank'>Baixar repositório</a>. Se o link não funcionar, entre no <a href='https://github.com/vieirads/Curso-de-extensao' target='_blank'>repositório do GitHub</a> e clique no <b style="color: #31A354">botão verde</b>, escrito <mark style="color: #FFFFFF; background-color: #31A354;">Clone or download</mark>, e então fazer o <mark style="background-color: #FFFFFF; color: #0095DD;">Download ZIP</mark>. 
+Para isso, basta clicar aqui: <a href='https://github.com/vieirads/Curso-de-extens-o/archive/master.zip' target='_blank'>Baixar repositório</a>. Se o link não funcionar, entre no <a href='https://github.com/vieirads/Curso-de-extensao' target='_blank'>repositório do GitHub</a> e clique em <mark style="color: #FFFFFF; background-color: #31A354; border: 1px solid #000000; border-radius: 5px; padding: 3px; font-weight: bold;">Clone or download</mark>, e em seguida clique em <mark style="background-color: #FFFFFF; color: #0095DD; border: 1px solid #000000; border-radius: 5px; padding: 3px; font-weight: bold;">Download ZIP</mark>. 
 </p>
 
 <figure align='center'>
@@ -209,7 +217,7 @@ O uso dos <mark class='mono_gray'>Notebooks</mark> será feito exclusivamente <i
 ## Google Colab Notebook
 
 <p>
-Para fazer o uso dessa plataforma, basta clicar no link <a href='https://colab.research.google.com/notebooks/intro.ipynb#recent=true' target='_blank'>Google Colab</a>. Você só precisa estar "logado" com seu <mark class='mono_gray'>gmail</mark> para que possa adicionar os arquivos das aulas. Uma vez que estiver "logado" em sua conta, basta você clicar em <mark style="background-color: orange; color: #FFFFFF;">Upload</mark>.
+Para fazer o uso dessa plataforma, basta clicar no link <a href='https://colab.research.google.com/notebooks/intro.ipynb#recent=true' target='_blank'>Google Colab</a>. Você só precisa estar "logado" com seu <mark class='mono_gray'>gmail</mark> para que possa adicionar os arquivos das aulas. Uma vez que estiver "logado" em sua conta, basta você clicar em <mark style="background-color: orange; color: #FFFFFF; border: 1px solid #000000; border-radius: 5px; padding: 3px; font-weight: bold;">Upload</mark>.
 </p>
 
 <figure align='center'>
@@ -225,7 +233,7 @@ Quando a janela de diálogo abrir, selecione o arquivo da aula e clique em abrir
 ## CoCalc
 
 <p>
-Para fazer o uso dessa plataforma, basta clicar no link <a href='https://cocalc.com/' target='_blank'>CoCalc</a>. Não é necessário fazer o uso de login (<i>Sign in</i>) e nem instalar nenhuma dependência em seu computador. Quando você entrar, clique no botão verde escrito <mark style="color: #FFFFFF; background-color: #31A354;">Run CoCalc now</mark>.
+Para fazer o uso dessa plataforma, basta clicar no link <a href='https://cocalc.com/' target='_blank'>CoCalc</a>. Não é necessário fazer o uso de login (<i>Sign in</i>) e nem instalar nenhuma dependência em seu computador. Quando você entrar, em <mark style="color: #FFFFFF; background-color: #31A354; border: 1px solid #000000; border-radius: 5px; padding: 3px; font-weight: bold;">Run CoCalc now</mark>.
 </p>
 
 <figure align='center'>
