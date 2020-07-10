@@ -23,7 +23,7 @@ mark.mono_gray {
 
 mark.mono_gray:hover {
     animation-name: lightening;
-    animation-duration: 1s;
+    animation-duration: 500ms;
     animation-fill-mode: forwards;
 }
 

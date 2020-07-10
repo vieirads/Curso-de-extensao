@@ -3,6 +3,11 @@
         --global-shadow-effect: 10px 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     }
 
+    div.round-box {
+        box-shadow: var(--global-shadow-effect);
+        border-radius: 5px;
+    }
+
     mark.mono_gray {
         background-color: #f0f0f0;
         font-family: monospace;
@@ -13,13 +18,18 @@
 
     mark.mono_gray:hover {
     animation-name: lightening;
-    animation-duration: 1s;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.3, 0.4, 0.5, 1.6);
     animation-fill-mode: forwards;
 }
 
     @keyframes lightening {
         100% {
-            background-image: linear-gradient(to bottom, #31A354/*rgb(0,149,221, 0.3)*/, rgb(0,149,221, 1));
+            background-image: linear-gradient(
+                to bottom, 
+                #31A354/*rgb(0,149,221, 0.3)*/, 
+                rgb(0,149,221, 1)
+                );
             color: #FFFFFF;
             box-shadow: var(--global-shadow-effect);
         }
@@ -28,7 +38,7 @@
     mark.green {
         color: #FFFFFF; 
         background-color: #31A354; 
-        border: 1px solid #000000; 
+        border: 0.5px solid #000000; 
         border-radius: 5px; 
         padding: 3px; 
         font-weight: bold;
@@ -37,7 +47,7 @@
     mark.white {
         color: #0095DD; 
         background-color: #FFFFFF; 
-        border: 1px solid #000000; 
+        border: 0.5px solid #000000; 
         border-radius: 5px; 
         padding: 3px; 
         font-weight: bold;
@@ -46,7 +56,7 @@
      mark.orange {
         color: #FFFFFF; 
         background-color: orange; 
-        border: 1px solid #000000; 
+        border: 0.5px solid #000000; 
         border-radius: 5px; 
         padding: 3px; 
         font-weight: bold;
@@ -192,13 +202,13 @@ O estudo desses dois movimentos consiste basicamente no estudo de poucas equaç�
 Iremos entender o significado de cada uma dessas quantidades e como elas influenciam o movimento do sistema conforme o tempo passa. Para isso, iremos contar com a ajuda de gráficos que descrevem essas quantidades. Veja abaixo um gráfico dessas três quantidades. Você pode mudar os valores da <b style="color: #0095DD">posição inicial</b>, da <b style="color: #31A354">velocidade</b> e da <b style="color: #E34A33">aceleração</b> e já ir entendendo o que ocorre em cada tipo de movimento! 😃
 </p>
 
-<div
- style="padding-bottom:100%; position:relative; display:block; width:100%;">
+<div class="round-box"
+ style="padding-bottom:100%;position:relative; display:block; width:100%;">
  <iframe
   width="100%" height="100%"
   src="iterative_plots/mruv.html"
   frameborder="0" scrolling="no"
-  style="position:absolute; top:0; left: 0">
+  style="position:absolute; top:0; left: 0; ">
   </iframe>
 </div>
 
@@ -214,8 +224,8 @@ Vá criando uma intuição do que é ajustar um modelo aos dados. Começo com o 
 Tente mudar os parâmetros <img src="https://render.githubusercontent.com/render/math?math=a"> e <img src="https://render.githubusercontent.com/render/math?math=b"> para que o ajuste (<u style="text-decoration-style: dashed; color: #E34A33;">linha tracejada vermelha</u>) se aproxime o máximo dos dados (<u style="color: #0095DD;">linha sólida azul</u>)!
 </p>
 
-<div
- style="padding-bottom:55%; position:relative; display:block; width:100%; height: auto;">
+<div class="round-box"
+ style="padding-bottom:52%; position:relative; display:block; width:100%; height: auto;">
  <iframe
   width="100%" height="100%"
   src="iterative_plots/ajuste_mru.html"
