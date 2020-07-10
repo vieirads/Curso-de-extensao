@@ -24,7 +24,7 @@ Bem vindo ao curso de extensão oferecido pelo <a href='http://site.dfi.uem.br/'
 </p>
 
 <p>
-Esse curso será dedicado ao aprendizado de ferramentas básicas da linguagem de programação <a href='https://www.python.org/' target='_blank'>Python</a>. Essas serão utilizadas para analisar e interpretar dados provenientes de experimentos de física básica. O curso é de caráter introdutório, portanto, se aplicado em casos simples como o movimento retilíneo uniforme (MRU) e o movimento retilíneo uniformemente variável (MRUV). Esses são os primeiros experimentos estudados e executados na disciplina de <a href='http://site.dfi.uem.br/wp-content/uploads/2016/10/3057-Lab.-Fisica-Geral-I-programa-2007.pdf' target='_blank'>Laboratório de Física Geral I/Física Experimental I</a>, oferecida pelo DFI, baseada no <a heref='http://site.dfi.uem.br/wp-content/uploads/2018/04/Manual-de-Laborat%C3%B3rio-de-F%C3%ADsica-Experimental-I.pdf' target='_blank'>Manual de laboratório de Física Experimental I</a>
+Esse curso será dedicado ao aprendizado de ferramentas básicas da linguagem de programação <a href='https://www.python.org/' target='_blank'>Python</a>. Essas serão utilizadas para analisar e interpretar dados provenientes de experimentos de física básica. O curso é de caráter introdutório, portanto, se aplicando em casos simples como o movimento retilíneo uniforme (MRU) e o movimento retilíneo uniformemente variável (MRUV). Esses são os primeiros experimentos estudados e executados na disciplina de <a href='http://site.dfi.uem.br/wp-content/uploads/2016/10/3057-Lab.-Fisica-Geral-I-programa-2007.pdf' target='_blank'>Laboratório de Física Geral I/Física Experimental I</a>, oferecida pelo DFI, baseada no <a heref='http://site.dfi.uem.br/wp-content/uploads/2018/04/Manual-de-Laborat%C3%B3rio-de-F%C3%ADsica-Experimental-I.pdf' target='_blank'>Manual de laboratório de Física Experimental I</a>
 </p>
 
 # Conteúdo do Curso
@@ -39,8 +39,8 @@ Durante o curso, abordaremos conceitos de física básica e analisaremos alguns 
         <li class='ident'>elas permitem uma facilidade na implementação de funções necessárias para nossas análises, como calcular média e desvio padrão;</li>
     </li>
     <!--  -->
-    <li> confeccionar gráficos usando o pacote <a href='https://matplotlib.org/' target='_blank'>matplotlib</a> 📈;
-        <li class='ident'>a partir de gráficos podemos ver tendências nos dados e então sugerir modelos teóricos;</li>
+    <li> confeccionar gráficos usando o pacote <a href='https://matplotlib.org/' target='_blank'><mark class='mono_gray'>matplotlib</mark></a> 📈;
+        <li class='ident'>a partir de gráficos podemos ver tendências nos dados e então sugerir modelos;</li>
         <li class='ident'>inspecionar visualmente a concordância entre os dados e o modelo proposto;</li>
     </li>
     <!--  -->
@@ -49,10 +49,11 @@ Durante o curso, abordaremos conceitos de física básica e analisaremos alguns 
     </li>
     <!--  -->
     <li> fazer ajustes não lineares;
-        <li class='ident'>trabalharemos também com modelos não lineares, como polinômios de grau dois;</li>
+        <li class='ident'>trabalharemos também com modelos não lineares, como polinômios;</li>
     </li>
     <!--  -->
-    <li> aprender a ajustar modelos usando a função <mark class='mono_gray'>polyfit</mark> do <mark class='mono_gray'>numpy</mark> e usando pacote de <i>machine learning</i> 🤖 <a href='https://scikit-learn.org/stable/' target='_blank'><mark class='mono_gray'>sklearn</mark></a>;
+    <li> os ajustes serão feitos usando as função <mark class='mono_gray'>polyfit()</mark> do <mark class='mono_gray'>numpy</mark> e <mark class='mono_gray'>optmize.curve_fit()</mark> do <a href="https://docs.scipy.org/doc/scipy/reference/index.html" target="_blank"><mark class='mono_gray'>scipy</mark></a>;</li>
+    <li> veremos também, brevemente, como fazer uma regressão linear usando pacote de <i>machine learning</i> 🤖 <a href='https://scikit-learn.org/stable/' target='_blank'><mark class='mono_gray'>sklearn</mark></a>;
     </li>
     <!--  -->
     <li> analisar quantitativamente a qualidade do modelo;
@@ -86,16 +87,16 @@ Durante o curso, abordaremos conceitos de física básica e analisaremos alguns 
 Mas e a Física? 🤔
 
 <p>
-Como dito antes, iremos abordar o tema de cinemática, o que consiste a primeira parte das disciplinas de Física Geral I de qualquer curso. Ela serve de base para entendermos como os movimentos mais simples. Os dois tipos que iremos tratar são: 
+Como dito antes, iremos abordar o tema de cinemática, o que consiste a primeira parte das disciplinas de Física Geral I de qualquer curso. Ela serve de base para entendermos a dinâmica dos movimentos mais simples, sendo esses:
 </p>
 
 <ul>
-    <li><b>movimento retilíneo uniform (MRU)</b>
-        <li class='ident'>objeto se desloca, em uma única dimensão, com velocidade constante e aceleração nula;</li>
+    <li><b>movimento retilíneo uniforme (MRU)</b>
+        <li class='ident'>o objeto se desloca, em uma única dimensão, com velocidade constante e aceleração nula;</li>
     </li>
     <!--  -->
     <li><b>movimento retilíneo uniformemente variável (MRUV)</b>
-        <li class='ident'>o objeto se desloca, em uma única dimensão, com velocidade variável e aceleração constante;</li>
+        <li class='ident'>o objeto se desloca, em uma única dimensão, com velocidade variável e aceleração constante diferente de zero;</li>
     </li>
 </ul>
 
@@ -105,7 +106,7 @@ Como dito antes, iremos abordar o tema de cinemática, o que consiste a primeira
     - o objeto se desloca, em uma única dimensão, com velocidade variável e aceleração constante; -->
 
 <p>
-O estudo desses dois movimentos consisti basicamente no estudo de poucas equações:
+O estudo desses dois movimentos consiste basicamente no estudo de poucas equações:
 </p>
 
 <ul>
@@ -119,11 +120,11 @@ O estudo desses dois movimentos consisti basicamente no estudo de poucas equaç�
 - a função horária da aceleração:  <img src="https://render.githubusercontent.com/render/math?math=a(t) = a = \text{constante}">; -->
 
 <p>
-Iremos entender o significado de cada uma dessas quantidades e como elas influenciam o movimento do sistema conforme o tempo passa. Para isso, iremos contar com a ajuda de gráficos que descrevem essas quantidades. Veja abaixo um gráfico dessas três quantidades. Você pode mudar os valores da posição inicial, da velocidade e da aceleração e já ir criando uma intuição do que ocorre em cada tipo de movimento! 😃
+Iremos entender o significado de cada uma dessas quantidades e como elas influenciam o movimento do sistema conforme o tempo passa. Para isso, iremos contar com a ajuda de gráficos que descrevem essas quantidades. Veja abaixo um gráfico dessas três quantidades. Você pode mudar os valores da <b style="color: #0095DD">posição inicial</b>, da <b style="color: #31A354">velocidade</b> e da <b style="color: #E34A33">aceleração</b> e já ir entendendo o que ocorre em cada tipo de movimento! 😃
 </p>
 
 <div
- style="padding-bottom:100%; position:relative; display:block; width:100%">
+ style="padding-bottom:100%; position:relative; display:block; width:100%;">
  <iframe
   width="100%" height="100%"
   src="iterative_plots/mruv.html"
@@ -141,11 +142,11 @@ Vá criando uma intuição do que é ajustar um modelo aos dados. Começo com o 
 </div>
 
 <p>
-Tente mudar os parâmetros  <img src="https://render.githubusercontent.com/render/math?math=a"> e  <img src="https://render.githubusercontent.com/render/math?math=b"> para que o ajuste se aproxime o máximo dos dados!
+Tente mudar os parâmetros <img src="https://render.githubusercontent.com/render/math?math=a"> e <img src="https://render.githubusercontent.com/render/math?math=b"> para que o ajuste (<u style="text-decoration-style: dashed; color: #E34A33;">linha tracejada vermelha</u>) se aproxime o máximo dos dados (<u style="color: #0095DD;">linha sólida azul</u>)!
 </p>
 
 <div
- style="padding-bottom:50%; position:relative; display:block; width:100%">
+ style="padding-bottom:55%; position:relative; display:block; width:100%; height: auto;">
  <iframe
   width="100%" height="100%"
   src="iterative_plots/ajuste_mru.html"
@@ -159,8 +160,12 @@ Tente mudar os parâmetros  <img src="https://render.githubusercontent.com/rende
 <iframe src="https://giphy.com/embed/hScapv64LYdZe2YO26" width="30" height="30" frameBorder="0" class="giphy-embed" allowFullScreen>
 </iframe> 
 <br>
-Passando o mouse ou usando o touch do celular, você pode verificar o valor de cada ponto nos gráficos. 
+Passando o mouse ou usando o <i>touch</i> do celular, você pode verificar o valor de cada ponto nos gráficos. 
 </div>
+
+<p>
+Ao final das aulas, exercícios são fornecidos para que você possa treinar o que foi abordado. Não é necessário a entrega desses exercícios. A única finalidade é ter algo para treinar seus novos conhecimentos. Estarei disponível para sanar (ou pelo menos tentar) suas dúvidas e discutir sobre o assunto.
+</p>
 
 <p>
 Ficou interessado? 😃
@@ -177,7 +182,7 @@ Você precisará do repositório para usar o <mark class='mono_gray'>Jupyter Not
 </p>
 
 <p>
-Para isso, basta clicar aqui: <a href='https://github.com/vieirads/Curso-de-extens-o/archive/master.zip' target='_blank'>Baixar repositório</a>. Se o link não funcionar, entre no <a href='https://github.com/vieirads/Curso-de-extensao' target='_blank'>repositório do GitHub</a> e clique no botão verde, escrito <mark class='mono_gray'>Clone or download</mark>, e então fazer o <mark class='mono_gray'>Download ZIP</mark>. 
+Para isso, basta clicar aqui: <a href='https://github.com/vieirads/Curso-de-extens-o/archive/master.zip' target='_blank'>Baixar repositório</a>. Se o link não funcionar, entre no <a href='https://github.com/vieirads/Curso-de-extensao' target='_blank'>repositório do GitHub</a> e clique no <b style="color: #31A354">botão verde</b>, escrito <mark style="color: #FFFFFF; background-color: #31A354;">Clone or download</mark>, e então fazer o <mark style="background-color: #FFFFFF; color: #0095DD;">Download ZIP</mark>. 
 </p>
 
 <figure align='center'>
@@ -192,19 +197,19 @@ Salve o arquivo em um local que for mais apropriado e descompacte-o.
 # Pasta <mark class='mono_gray'>Aulas</mark> 📂
 
 <p>
-Nessa pasta você encontrará arquivos com a extensão <mark class='mono_gray'>.ipynb</mark>. Esses arquivos são os <mark class='mono_gray'>Notebooks</mark> que trabalharemos. Eles contêm textos baseados no <a href='http://site.dfi.uem.br/wp-content/uploads/2018/04/Manual-de-Laborat%C3%B3rio-de-F%C3%ADsica-Experimental-I.pdf' target='_blank'>Manual de Laboratório de Física Experimental I</a> e instruções de como os dados experimentais podem ser analisados usando a linguagem de programação <mark class='mono_gray'>Python</mark>.
+Nessa pasta você encontrará arquivos com a extensão <mark class='mono_gray'>.ipynb</mark>. Esses arquivos são os <mark class='mono_gray'>Notebooks</mark> que trabalharemos. Eles contêm textos com o básico da linguagem de programação <mark class='mono_gray'>Python</mark> (Aulas 1 e 2). Posteriormente, os conceitos abordados nas primeiras aulas são conciliados com o texto baseado no <a href='http://site.dfi.uem.br/wp-content/uploads/2018/04/Manual-de-Laborat%C3%B3rio-de-F%C3%ADsica-Experimental-I.pdf' target='_blank'>Manual de Laboratório de Física Experimental I</a> (Aulas 3 e 4). Esses arquivos contém instruções de como os dados experimentais podem ser analisados usando a linguagem de programação <mark class='mono_gray'>Python</mark>. Para que o aluno possa treinar o que foi abordado durante o curso, um <mark class='mono_gray'>Notebook</mark> com exercícios é disponibilizado.
 </p>
 
 # Usando os Notebooks 📔
 
 <p>
-O uso dos <mark class='mono_gray'>Notebooks</mark> será feito exclusivamente <i>online</i>, não precisando instalar nenhuma dependência em seu computador. Além disso, as plataformas sugeridas aqui "emprestam" um poder de computação para você.
+O uso dos <mark class='mono_gray'>Notebooks</mark> será feito exclusivamente <i>online</i>, não precisando instalar nenhuma dependência em seu computador.
 </p>
 
-# Google Colab Notebook
+## Google Colab Notebook
 
 <p>
-Para fazer o uso dessa plataforma, basta clicar no link <a href='https://colab.research.google.com/notebooks/intro.ipynb#recent=true' target='_blank'>Google Colab</a>. Você só precisa estar "logado" com seu <mark class='mono_gray'>gmail</mark> para que possa adicionar os arquivos das aulas. Uma vez que estiver "logado" em sua conta, basta você clicar em <mark class='mono_gray'>Upload</mark>.
+Para fazer o uso dessa plataforma, basta clicar no link <a href='https://colab.research.google.com/notebooks/intro.ipynb#recent=true' target='_blank'>Google Colab</a>. Você só precisa estar "logado" com seu <mark class='mono_gray'>gmail</mark> para que possa adicionar os arquivos das aulas. Uma vez que estiver "logado" em sua conta, basta você clicar em <mark style="background-color: orange; color: #FFFFFF;">Upload</mark>.
 </p>
 
 <figure align='center'>
@@ -217,10 +222,10 @@ Para fazer o uso dessa plataforma, basta clicar no link <a href='https://colab.r
 Quando a janela de diálogo abrir, selecione o arquivo da aula e clique em abrir. Após o arquivo ser carregado, você será redirecionado para o <mark class='mono_gray'>Notebook</mark>, onde poderá acompanhar o conteúdo da aula e executar seus códigos. 👏 
 </p>
 
-# CoCalc
+## CoCalc
 
 <p>
-Para fazer o uso dessa plataforma, basta clicar no link <a href='https://cocalc.com/' target='_blank'>CoCalc</a>. Não é necessário fazer o uso de login (Sign in) e nem instalar nenhuma dependência em seu computador. Quando você entrar, clique no botão verde escrito <mark class='mono_gray'>Run CoCalc now</mark>.
+Para fazer o uso dessa plataforma, basta clicar no link <a href='https://cocalc.com/' target='_blank'>CoCalc</a>. Não é necessário fazer o uso de login (<i>Sign in</i>) e nem instalar nenhuma dependência em seu computador. Quando você entrar, clique no botão verde escrito <mark style="color: #FFFFFF; background-color: #31A354;">Run CoCalc now</mark>.
 </p>
 
 <figure align='center'>
@@ -261,5 +266,5 @@ Quando a janela de dialogo abrir, selecione o arquivo da aula e clique em abrir.
 <!-- ![Abrindo o arquivo adicionado](figures/cocalc4.png 'Abrindo o arquivo adicionado.') -->
 
 <p>
-Pronto! A partir daí começaremos nossas aulas. Espero que seja bastante útil e façam bom proveito do curso. 👋
+Pronto! A partir daí começaremos nossas aulas. Espero que seja bastante útil e façam bom proveito do curso. Qualquer dúvida estou à disposição! 👋
 </p>
