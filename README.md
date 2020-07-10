@@ -1,10 +1,69 @@
 <style>
+    :root {
+        --global-shadow-effect: 10px 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+
     mark.mono_gray {
         background-color: #f0f0f0;
         font-family: monospace;
-        border: 1px solid #000000;
+        border: 0.5px solid #000000;
         border-radius: 5px;
         padding: 2px;
+    }
+
+    mark.mono_gray:hover {
+    animation-name: lightening;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+    @keyframes lightening {
+        100% {
+            background-image: linear-gradient(to bottom, #31A354/*rgb(0,149,221, 0.3)*/, rgb(0,149,221, 1));
+            color: #FFFFFF;
+            box-shadow: var(--global-shadow-effect);
+        }
+    }
+
+    mark.green {
+        color: #FFFFFF; 
+        background-color: #31A354; 
+        border: 1px solid #000000; 
+        border-radius: 5px; 
+        padding: 3px; 
+        font-weight: bold;
+    }
+
+    mark.white {
+        color: #0095DD; 
+        background-color: #FFFFFF; 
+        border: 1px solid #000000; 
+        border-radius: 5px; 
+        padding: 3px; 
+        font-weight: bold;
+    }    
+
+     mark.orange {
+        color: #FFFFFF; 
+        background-color: orange; 
+        border: 1px solid #000000; 
+        border-radius: 5px; 
+        padding: 3px; 
+        font-weight: bold;
+    }
+
+    mark.green:hover,
+    mark.white:hover,
+    mark.orange:hover {
+        animation-name: shadow;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes shadow {
+        100% {
+            box-shadow: var(--global-shadow-effect);
+        }
     }
 
     li.ident {
@@ -20,6 +79,8 @@
     img.aw {
         width: 100%;
         height: auto;
+        border-radius: 5px;
+        box-shadow: var(--global-shadow-effect);
     }
 </style>
 
@@ -190,11 +251,11 @@ Você precisará do repositório para usar o <mark class='mono_gray'>Jupyter Not
 </p>
 
 <p>
-Para isso, basta clicar aqui: <a href='https://github.com/vieirads/Curso-de-extens-o/archive/master.zip' target='_blank'>Baixar repositório</a>. Se o link não funcionar, entre no <a href='https://github.com/vieirads/Curso-de-extensao' target='_blank'>repositório do GitHub</a> e clique em <mark style="color: #FFFFFF; background-color: #31A354; border: 1px solid #000000; border-radius: 5px; padding: 3px; font-weight: bold;">Clone or download</mark>, e em seguida clique em <mark style="background-color: #FFFFFF; color: #0095DD; border: 1px solid #000000; border-radius: 5px; padding: 3px; font-weight: bold;">Download ZIP</mark>. 
+Para isso, basta clicar aqui: <a href='https://github.com/vieirads/Curso-de-extens-o/archive/master.zip' target='_blank'>Baixar repositório</a>. Se o link não funcionar, entre no <a href='https://github.com/vieirads/Curso-de-extensao' target='_blank'>repositório do GitHub</a> e clique em <mark class='green'>Clone or download</mark>, e em seguida clique em <mark class="white">Download ZIP</mark>. 
 </p>
 
 <figure align='center'>
-    <img src='figures/git1.png' alt='Instruções para baixar o repositório.' style='width: 400px'>
+    <img src='figures/git1.png' alt='Instruções para baixar o repositório.' class="aw" style="width: 400px">
     <figcaption><b>Fig. 1:</b> Fazendo o download dos arquivos.</figcaption>
 </figure>
 
@@ -217,11 +278,11 @@ O uso dos <mark class='mono_gray'>Notebooks</mark> será feito exclusivamente <i
 ## Google Colab Notebook
 
 <p>
-Para fazer o uso dessa plataforma, basta clicar no link <a href='https://colab.research.google.com/notebooks/intro.ipynb#recent=true' target='_blank'>Google Colab</a>. Você só precisa estar "logado" com seu <mark class='mono_gray'>gmail</mark> para que possa adicionar os arquivos das aulas. Uma vez que estiver "logado" em sua conta, basta você clicar em <mark style="background-color: orange; color: #FFFFFF; border: 1px solid #000000; border-radius: 5px; padding: 3px; font-weight: bold;">Upload</mark>.
+Para fazer o uso dessa plataforma, basta clicar no link <a href='https://colab.research.google.com/notebooks/intro.ipynb#recent=true' target='_blank'>Google Colab</a>. Você só precisa estar "logado" com seu <mark class='mono_gray'>gmail</mark> para que possa adicionar os arquivos das aulas. Uma vez que estiver "logado" em sua conta, basta você clicar em <mark class="orange">Upload</mark>.
 </p>
 
 <figure align='center'>
-    <img src='figures/colab.png' alt='Adicionando arquivo ao Google Colab.'><br>
+    <img src='figures/colab.png' alt='Adicionando arquivo ao Google Colab.' class="aw"><br>
     <figcaption><b>Fig. 2:</b> Adicionando arquivo ao Google Colab.</figcaption>
 </figure>
 <!-- ![Adicionando arquivo ao Google Colab.](figures/colab.png 'Adicionando arquivo ao Google Colab.') -->
@@ -233,11 +294,11 @@ Quando a janela de diálogo abrir, selecione o arquivo da aula e clique em abrir
 ## CoCalc
 
 <p>
-Para fazer o uso dessa plataforma, basta clicar no link <a href='https://cocalc.com/' target='_blank'>CoCalc</a>. Não é necessário fazer o uso de login (<i>Sign in</i>) e nem instalar nenhuma dependência em seu computador. Quando você entrar, em <mark style="color: #FFFFFF; background-color: #31A354; border: 1px solid #000000; border-radius: 5px; padding: 3px; font-weight: bold;">Run CoCalc now</mark>.
+Para fazer o uso dessa plataforma, basta clicar no link <a href='https://cocalc.com/' target='_blank'>CoCalc</a>. Não é necessário fazer o uso de login (<i>Sign in</i>) e nem instalar nenhuma dependência em seu computador. Quando você entrar, em <mark class="green">Run CoCalc now</mark>.
 </p>
 
 <figure align='center'>
-    <img src='figures/cocalc1.png' alt='Páginal inicial do CoCalc.'><br>
+    <img src='figures/cocalc1.png' alt='Páginal inicial do CoCalc.' class="aw"><br>
     <figcaption><b>Fig. 3:</b> Página inicial do CoCalc.</figcaption>
 </figure>
 
@@ -248,7 +309,7 @@ Após isso, você será redirecionado para uma outra página, mostrada na figura
 </p>
 
 <figure align='center'>
-    <img src='figures/cocalc2.png' alt='Selecionando o kernel no CoCalc.'>
+    <img src='figures/cocalc2.png' alt='Selecionando o kernel no CoCalc.' class="aw">
     <figcaption><b>Fig. 4:</b> Selecionando o kernel no CoCalc.</figcaption>
 </figure>
 <!-- ![Selecionando o Kernel](figures/cocalc2.png 'Selecionando o Kernel.') -->
@@ -258,7 +319,7 @@ Na próxima página, clique mais uma vez no botão de upload, no canto superior 
 </p>
 
 <figure align='center'>
-    <img src='figures/cocalc3.png' alt='Upload do Notebook no CoCalc.'><br>
+    <img src='figures/cocalc3.png' alt='Upload do Notebook no CoCalc.' class="aw"><br>
     <figcaption><b>Fig. 5:</b> Upload do Notebook no CoCalc.</figcaption>
 </figure>
 <!-- ![Upload do Notebook](figures/cocalc3.png 'Upload do Notebook.') -->
@@ -268,7 +329,7 @@ Quando a janela de dialogo abrir, selecione o arquivo da aula e clique em abrir.
 </p>
 
 <figure align='center'>
-    <img src='figures/cocalc4.png' alt='Abrindo o arquivo adicionado no CoCalc.'><br>
+    <img src='figures/cocalc4.png' alt='Abrindo o arquivo adicionado no CoCalc.' class="aw"><br>
     <figcaption><b>Fig. 6:</b> Abrindo o arquivo adicionado no CoCalc.</figcaption>
 </figure>
 <!-- ![Abrindo o arquivo adicionado](figures/cocalc4.png 'Abrindo o arquivo adicionado.') -->

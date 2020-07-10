@@ -21,6 +21,19 @@ mark.mono_gray {
     padding: 2px;
 }
 
+mark.mono_gray:hover {
+    animation-name: lightening;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes lightening {
+    100% {
+        background-image: linear-gradient(to bottom,#31A354 /*rgb(0,149,221, 0.3)*/, rgb(0,149,221, 1));
+        color: #FFFFFF;
+    }
+}
+
 ol.sub-item { 
     counter-reset: item;
     text-align: justify;
