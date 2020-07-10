@@ -16,6 +16,7 @@ p.justified {
 mark.mono_gray {
     background-color: #f0f0f0;
     font-family: monospace;
+    border: 0.5px solid #000000;
     border-radius: 5px;
     padding: 2px;
 }
