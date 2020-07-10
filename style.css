@@ -4,6 +4,10 @@ a hack to deal with our current css styles and no new styling should be added in
 /* CSS stylesheet to make paragraphs justified, create lists with subitem numbering 
 and highlight words in gray with font-family monospace */
 
+.container {
+    width: 95% !important;
+}
+
 p.justified {
     text-align: justify;
     font-size: 11pt;
