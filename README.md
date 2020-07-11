@@ -256,12 +256,12 @@ Veja abaixo como fazer o <i>download</i> desse repositório e como usar a plataf
 
 # Obtendo o Repositório 📩
 
-<p>
+<!-- <p>
 Você precisará do repositório para usar o <mark class='mono_gray'>Jupyter Notebook</mark> contendo os conteúdos das aulas. 
-</p>
+</p> -->
 
 <p>
-Para isso, basta clicar aqui: <a href='https://github.com/vieirads/Curso-de-extens-o/archive/master.zip' target='_blank'>Baixar repositório</a>. Se o link não funcionar, entre no <a href='https://github.com/vieirads/Curso-de-extensao' target='_blank'>repositório do GitHub</a> e clique em <mark class='green'>Clone or download</mark>, e em seguida clique em <mark class="white">Download ZIP</mark>. 
+Para obter os arquivos do curso, basta clicar aqui: <a href='https://github.com/vieirads/Curso-de-extens-o/archive/master.zip' target='_blank'>Baixar repositório</a>. Você irá obter um arquivo chamado <mark class="mono_gray">Curso-de-extensao-master.zip</mark>. Se o link não funcionar, entre no <a href='https://github.com/vieirads/Curso-de-extensao' target='_blank'>repositório do GitHub</a> e clique em <mark class='green'>Clone or download</mark>, e em seguida clique em <mark class="white">Download ZIP</mark>. 
 </p>
 
 <figure align='center'>
