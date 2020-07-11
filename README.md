@@ -13,7 +13,7 @@
         font-family: monospace;
         border: 0.5px solid #000000;
         border-radius: 5px;
-        padding: 2px;
+        padding: 1px;
     }
 
     mark.mono_gray:hover {
@@ -40,7 +40,7 @@
         background-color: #31A354; 
         border: 0.5px solid #000000; 
         border-radius: 5px; 
-        padding: 3px; 
+        padding: 1px; 
         font-weight: bold;
     }
 
@@ -49,7 +49,7 @@
         background-color: #FFFFFF; 
         border: 0.5px solid #000000; 
         border-radius: 5px; 
-        padding: 3px; 
+        padding: 1px; 
         font-weight: bold;
     }    
 
@@ -58,7 +58,7 @@
         background-color: orange; 
         border: 0.5px solid #000000; 
         border-radius: 5px; 
-        padding: 3px; 
+        padding: 1px; 
         font-weight: bold;
     }
 
