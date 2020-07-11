@@ -282,7 +282,7 @@ Nessa pasta você encontrará arquivos com a extensão <mark class='mono_gray'>.
 # Usando os Notebooks 📔
 
 <p>
-O uso dos <mark class='mono_gray'>Notebooks</mark> será feito exclusivamente <i>online</i>, não precisando instalar nenhuma dependência em seu computador.
+O uso dos <mark class='mono_gray'>Notebooks</mark> (arquivos com extensão <mark class="mono_gray">.ipynb</mark>) será feito exclusivamente <i>online</i>, não precisando instalar nenhuma dependência em seu computador.
 </p>
 
 ## Google Colab Notebook
@@ -304,7 +304,7 @@ Quando a janela de diálogo abrir, selecione o arquivo da aula e clique em abrir
 ## CoCalc
 
 <p>
-Para fazer o uso dessa plataforma, basta clicar no link <a href='https://cocalc.com/' target='_blank'>CoCalc</a>. Não é necessário fazer o uso de login (<i>Sign in</i>) e nem instalar nenhuma dependência em seu computador. Quando você entrar, em <mark class="green">Run CoCalc now</mark>.
+Para fazer o uso dessa plataforma, basta clicar no link <a href='https://cocalc.com/' target='_blank'>CoCalc</a>. Não é necessário fazer o uso de login (<i>Sign in</i>) e nem instalar nenhuma dependência em seu computador. Quando você entrar, basta clicar no botão em <mark class="green">Run CoCalc now</mark>.
 </p>
 
 <figure align='center'>
