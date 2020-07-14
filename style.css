@@ -18,7 +18,7 @@ mark.mono_gray {
     font-family: monospace;
     border: 0.5px solid #000000;
     border-radius: 5px;
-    padding: 2px;
+    padding: 0.1px;
 }
 
 mark.mono_gray:hover {
@@ -49,4 +49,20 @@ li.sub-item:before {
     counter-increment: item;
     text-align: justify;
     font-weight: bold;
+}
+
+div.exercise {
+    background-color: rgba(137,207,240,0.3);
+    color: rgba(0,128,255);
+    border: 0.5px solid rgba(0,128,255);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+div.answer {
+    background-color: rgba(76,187,23,0.3);
+    color: rgba(11,102,35);
+    border: 0.5px solid rgba(11,102,35);
+    border-radius: 5px;
+    padding: 3px;
 }
