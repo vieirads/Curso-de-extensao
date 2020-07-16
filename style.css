@@ -8,6 +8,10 @@ and highlight words in gray with font-family monospace */
     width: 95% !important;
 }
 
+#centralizar {
+    text-align: center;
+}
+
 p.justified {
     text-align: justify;
     font-size: 11pt;
