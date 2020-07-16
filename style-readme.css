@@ -1,0 +1,93 @@
+:root {
+    --global-shadow-effect: 10px 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+div.round-box {
+    box-shadow: var(--global-shadow-effect);
+    border-radius: 5px;
+}
+
+mark.mono_gray {
+    background-color: #f0f0f0;
+    font-family: monospace;
+    border: 0.5px solid #000000;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+mark.mono_gray:hover {
+animation-name: lightening;
+animation-duration: 2s;
+animation-timing-function: cubic-bezier(0.3, 0.4, 0.5, 1.6);
+animation-fill-mode: forwards;
+}
+
+@keyframes lightening {
+    100% {
+        background-image: linear-gradient(
+            to bottom, 
+            #31A354/*rgb(0,149,221, 0.3)*/, 
+            rgb(0,149,221, 1)
+            );
+        color: #FFFFFF;
+        box-shadow: var(--global-shadow-effect);
+    }
+}
+
+mark.green {
+    color: #FFFFFF; 
+    background-color: #31A354; 
+    border: 0.5px solid #000000; 
+    border-radius: 5px; 
+    padding: 1px; 
+    font-weight: bold;
+}
+
+mark.white {
+    color: #0095DD; 
+    background-color: #FFFFFF; 
+    border: 0.5px solid #000000; 
+    border-radius: 5px; 
+    padding: 1px; 
+    font-weight: bold;
+}    
+
+ mark.orange {
+    color: #FFFFFF; 
+    background-color: orange; 
+    border: 0.5px solid #000000; 
+    border-radius: 5px; 
+    padding: 1px; 
+    font-weight: bold;
+}
+
+mark.green:hover,
+mark.white:hover,
+mark.orange:hover {
+    animation-name: shadow;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes shadow {
+    100% {
+        box-shadow: var(--global-shadow-effect);
+    }
+}
+
+li.ident {
+    margin-left: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+p {
+    text-align: justify;
+}
+
+img.aw {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: var(--global-shadow-effect);
+}

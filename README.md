@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
     :root {
         --global-shadow-effect: 10px 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     }
@@ -92,7 +92,12 @@
         border-radius: 5px;
         box-shadow: var(--global-shadow-effect);
     }
-</style>
+</style> -->
+<link 
+    href="style-readme.css" 
+    rel="stylesheet" 
+    type="text/css"
+    media="all" />
 
 <img src='figures/logo_uem.png' class="aw">
 
