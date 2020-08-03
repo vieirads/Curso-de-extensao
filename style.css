@@ -55,6 +55,23 @@ li.sub-item:before {
     font-weight: bold;
 }
 
+ol.ref {
+    counter-reset: item;
+    text-align: justify;
+}
+
+li.ref {
+    display: block;
+    text-align: justify;
+}
+
+li.ref:before {
+    content: "[" counters(item, ".") "] ";
+    counter-increment: item;
+    text-align: justify;
+    font-weight: bold;
+}
+
 div.exercise {
     background-color: rgba(137,207,240,0.3);
     color: rgba(0,128,255);
