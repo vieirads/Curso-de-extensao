@@ -4,6 +4,10 @@ a hack to deal with our current css styles and no new styling should be added in
 /* CSS stylesheet to make paragraphs justified, create lists with subitem numbering 
 and highlight words in gray with font-family monospace */
 
+:root {
+    --global-shadow-effect: 10px 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
 .container {
     width: 95% !important;
 }
@@ -86,4 +90,12 @@ div.answer {
     border: 0.5px solid rgba(11,102,35);
     border-radius: 5px;
     padding: 3px;
+}
+
+img.aw {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: var(--global-shadow-effect);
+    margin: 20px 0;
 }
